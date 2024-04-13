@@ -1,0 +1,57 @@
+"loginFailed" = "Der Benutzername und das Passwort sind falsch. Bitte versuchen Sie es noch einmal. ";
+
+"loginFailedShort" = "Login fehlgeschlagen";
+
+"rmBuddy1" = "Willst du diesen Freund wirklich ";
+
+"rmBuddy2" = " von der Freundesliste entfernen?";
+
+"rmShort" = "Freund entfernen?";
+
+"noJoin" = "Dieses Spiel kann sich nicht direkt mit einem Server verbinden. Willst du fortfahren?";
+
+"noJoinShort" = "Keine Ein-Klick-Verbindung möglich";
+
+"continue" = "Fortfahren";
+
+"cancel" = "Abbrechen";
+
+"ok" = "OK";
+
+"download" = "Downloaden";
+
+"notes" = "View Release Notes";
+
+"otherShort" = "Anderer Login";
+
+"other" = "Jemand hat sich von einer anderen Position aus eingeloggt. ";
+
+"updateShort" = "Neue Version verfügbar!";
+
+"update" = "iFire Version %@ ist jetzt verfügbar! (Du benutzt momentan Version %@). Willst du das Update herunterladen?";
+
+"noUpdateShort" = "Keine Updates vorhanden";
+
+"noUpdate" = "Es gibt keine neue iFire-Version. ";
+
+"noInetShort" = "Keine Internet-Verbindung!";
+
+"noInet" = "iFire konnte sich nicht mit dem Master-Server verbinden!";
+
+"typing" = "%@ gibt eine Nachricht ein...";
+
+"msgSent" = "Nachricht wurde gesendet";
+
+"authRequest" = "Kontakt erwartet Authorisierung";
+
+"contactOff" = "Kontakt hat sich ausgeloggt";
+
+"contactOn" = "Kontakt hat sich eingeloggt";
+
+"nowOnline" = "<Der Benutzer ist jetzt online>";
+
+"nowOffline" = "<Der Benutzer ist jetzt offline>";
+
+"nowPlaying" = "Kontakt hat angefangen ein Spiel zu spielen";
+
+"playing" = "%@ spielt jetzt %@";

@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AE59167F0F1E6CD1003A2EBC /* iFire */;
+		activeTarget = 8D1107260486CEB800E47090 /* iFire */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iFire */,
+		);
+		codeSenseManager = AE591C590F1E6CD3003A2EBC /* Code sense */;
+		executables = (
+			AE59167F0F1E6CD1003A2EBC /* iFire */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					566,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 253652968;
+			PBXWorkspaceStateSaveDate = 253652968;
+		};
+		perUserProjectItems = {
+			AE591C870F1E6FB2003A2EBC = AE591C870F1E6FB2003A2EBC /* PBXTextBookmark */;
+			AE591C880F1E6FB2003A2EBC = AE591C880F1E6FB2003A2EBC /* PlistBookmark */;
+			AE591C890F1E6FB2003A2EBC = AE591C890F1E6FB2003A2EBC /* PBXTextBookmark */;
+			AE591C8A0F1E6FB2003A2EBC = AE591C8A0F1E6FB2003A2EBC /* PlistBookmark */;
+			AEB2D7F10F1E6FF2003611E8 /* PlistBookmark */ = AEB2D7F10F1E6FF2003611E8 /* PlistBookmark */;
+		};
+		sourceControlManager = AE591C580F1E6CD3003A2EBC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5CD3DBAE0E9A6D1900570597 /* MyChatWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	8D1107260486CEB800E47090 /* iFire */ = {
+		activeExec = 0;
+		executables = (
+			AE59167F0F1E6CD1003A2EBC /* iFire */,
+		);
+	};
+	AE59167F0F1E6CD1003A2EBC /* iFire */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iFire;
+		sourceDirectories = (
+		);
+	};
+	AE591C580F1E6CD3003A2EBC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	AE591C590F1E6CD3003A2EBC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AE591C870F1E6FB2003A2EBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CD3DBAE0E9A6D1900570597 /* MyChatWindow.h */;
+		name = "MyChatWindow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	AE591C880F1E6FB2003A2EBC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = "/Users/sysop/Downloads/iFire_0-1.12_source/info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	AE591C890F1E6FB2003A2EBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CD3DBAE0E9A6D1900570597 /* MyChatWindow.h */;
+		name = "MyChatWindow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	AE591C8A0F1E6FB2003A2EBC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			SUEnableAutomaticChecks,
+		);
+		name = "/Users/sysop/Downloads/iFire_0-1.12_source/info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	AEB2D7F10F1E6FF2003611E8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			SUFeedURL,
+		);
+		name = "/Users/sysop/Downloads/iFire_0-1.12_source/info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}

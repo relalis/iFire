@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1DF8400C608C7300F27556 /* Emoticons in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DF83F0C608C7300F27556 /* Emoticons */; };
+		5C206F100C6397BD00D3BB68 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C206F0F0C6397BD00D3BB68 /* Growl.framework */; };
+		5C206F210C63980F00D3BB68 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C206F0F0C6397BD00D3BB68 /* Growl.framework */; };
+		5C2D88870B7A48E300601026 /* iFire.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D88860B7A48E300601026 /* iFire.icns */; };
+		5C52D2AB0E9B7CEA00D40AC9 /* qstat.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 5C52D2AA0E9B7CEA00D40AC9 /* qstat.cfg */; };
+		5C53065E0C60E715005AC1A5 /* grin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306510C60E715005AC1A5 /* grin.png */; };
+		5C53065F0C60E715005AC1A5 /* blink.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306520C60E715005AC1A5 /* blink.png */; };
+		5C5306610C60E715005AC1A5 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306540C60E715005AC1A5 /* smile.png */; };
+		5C5306620C60E715005AC1A5 /* cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306550C60E715005AC1A5 /* cool.png */; };
+		5C5306630C60E715005AC1A5 /* tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306560C60E715005AC1A5 /* tongue.png */; };
+		5C5306640C60E715005AC1A5 /* smile3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306570C60E715005AC1A5 /* smile3.png */; };
+		5C5306660C60E715005AC1A5 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5306590C60E715005AC1A5 /* happy.png */; };
+		5C5306670C60E715005AC1A5 /* sick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C53065A0C60E715005AC1A5 /* sick.png */; };
+		5C5306680C60E715005AC1A5 /* whistling.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C53065B0C60E715005AC1A5 /* whistling.png */; };
+		5C5306690C60E715005AC1A5 /* wink.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C53065C0C60E715005AC1A5 /* wink.png */; };
+		5C53066A0C60E715005AC1A5 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C53065D0C60E715005AC1A5 /* sad.png */; };
+		5C61E9290F23A88200C093A7 /* MyXfireOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C61E9280F23A88200C093A7 /* MyXfireOverlay.m */; };
+		5C6248560F11681800EB382E /* MyTabbedChatWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C6248550F11681800EB382E /* MyTabbedChatWindow.mm */; };
+		5C6484B60F0969DE00BB2666 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C6484B50F0969DE00BB2666 /* Credits.rtf */; };
+		5C64B3A70F1E760100F4AA57 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE591C5C0F1E6D0E003A2EBC /* Sparkle.framework */; };
+		5C7A58C20C78711E00FC0421 /* Xfire Icons in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A55260C78711D00FC0421 /* Xfire Icons */; };
+		5C8387420AFBB030006C9DBF /* MacGames in Resources */ = {isa = PBXBuildFile; fileRef = 5C8387410AFBB030006C9DBF /* MacGames */; };
+		5C8387440AFBB04F006C9DBF /* games.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C8387430AFBB04F006C9DBF /* games.txt */; };
+		5C8808EB0F1E7C8C0063716C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5C8808EA0F1E7C8C0063716C /* dsa_pub.pem */; };
+		5C891A7F0B3C404E00C307DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C891A7E0B3C404E00C307DA /* Security.framework */; };
+		5C8F7A4F0B73D22A0051D219 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F7A4E0B73D22A0051D219 /* Localizable.strings */; };
+		5CAFF19E0F1CE48400111F18 /* MyXfireVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAFF19D0F1CE48400111F18 /* MyXfireVoice.m */; };
+		5CC288910D2C25D9004F1351 /* qstat in Resources */ = {isa = PBXBuildFile; fileRef = 5CC288900D2C25D9004F1351 /* qstat */; };
+		5CCD043A0C5F303A003F0F67 /* libxfirelib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD04390C5F303A003F0F67 /* libxfirelib.a */; };
+		5CD3DB440E9A6B3300570597 /* ChatWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3DB420E9A6B3300570597 /* ChatWindow.nib */; };
+		5CD3DB470E9A6B3D00570597 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3DB450E9A6B3D00570597 /* MainMenu.nib */; };
+		5CD3DBB00E9A6D1900570597 /* MyXfireGames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DB9B0E9A6D1900570597 /* MyXfireGames.m */; };
+		5CD3DBB10E9A6D1900570597 /* MyQstatWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DB9D0E9A6D1900570597 /* MyQstatWrapper.m */; };
+		5CD3DBB20E9A6D1900570597 /* MyXfireWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DB9E0E9A6D1900570597 /* MyXfireWrapper.mm */; };
+		5CD3DBB30E9A6D1900570597 /* MyXfireUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA00E9A6D1900570597 /* MyXfireUpdater.m */; };
+		5CD3DBB40E9A6D1900570597 /* MyXfireNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA20E9A6D1900570597 /* MyXfireNetwork.m */; };
+		5CD3DBB50E9A6D1900570597 /* AGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA50E9A6D1900570597 /* AGKeychain.m */; };
+		5CD3DBB60E9A6D1900570597 /* MyGrowl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA70E9A6D1900570597 /* MyGrowl.m */; };
+		5CD3DBB70E9A6D1900570597 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA80E9A6D1900570597 /* MyTableView.m */; };
+		5CD3DBB80E9A6D1900570597 /* MyChatWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBA90E9A6D1900570597 /* MyChatWindow.mm */; };
+		5CD3DBB90E9A6D1900570597 /* MySmiley.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBAA0E9A6D1900570597 /* MySmiley.m */; };
+		5CD3DBBA0E9A6D1900570597 /* MyXfireController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DBAC0E9A6D1900570597 /* MyXfireController.mm */; };
+		5CD4C93D0C19F307003ACE9C /* kreuz in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4C93B0C19F307003ACE9C /* kreuz */; };
+		5CD4C93E0C19F307003ACE9C /* haken in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4C93C0C19F307003ACE9C /* haken */; };
+		5CE572730EEB4635000323C2 /* iFire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE572720EEB4635000323C2 /* iFire.pdf */; };
+		5CF2A2620C5CB23D00EA12B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2A2610C5CB23D00EA12B2 /* IOKit.framework */; };
+		5CF9C9420B57C5D200CEBDA5 /* red in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9C93F0B57C5D200CEBDA5 /* red */; };
+		5CF9C9430B57C5D200CEBDA5 /* orange in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9C9400B57C5D200CEBDA5 /* orange */; };
+		5CF9C9440B57C5D200CEBDA5 /* green in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9C9410B57C5D200CEBDA5 /* green */; };
+		5CFA84550C1AEE12008F5B03 /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA84530C1AEE12008F5B03 /* Add.tiff */; };
+		5CFA84560C1AEE12008F5B03 /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA84540C1AEE12008F5B03 /* Remove.tiff */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AE591C5D0F1E6D0E003A2EBC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE591C5C0F1E6D0E003A2EBC /* Sparkle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C206F190C6397ED00D3BB68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C64B3A70F1E760100F4AA57 /* Sparkle.framework in CopyFiles */,
+				5C206F210C63980F00D3BB68 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iFire_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFire_Prefix.pch; sourceTree = "<group>"; };
+		5C16AFD00F121839001A0797 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		5C16AFD10F121843001A0797 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/ChatWindow.nib; sourceTree = "<group>"; };
+		5C16AFD20F12184A001A0797 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5C1DF83F0C608C7300F27556 /* Emoticons */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Emoticons; path = Resources/Emoticons; sourceTree = "<group>"; };
+		5C206F0F0C6397BD00D3BB68 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		5C2D88860B7A48E300601026 /* iFire.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = iFire.icns; path = Resources/iFire.icns; sourceTree = "<group>"; };
+		5C52D2AA0E9B7CEA00D40AC9 /* qstat.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = qstat.cfg; path = Resources/qstat.cfg; sourceTree = "<group>"; };
+		5C5306510C60E715005AC1A5 /* grin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grin.png; path = Resources/grin.png; sourceTree = "<group>"; };
+		5C5306520C60E715005AC1A5 /* blink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blink.png; path = Resources/blink.png; sourceTree = "<group>"; };
+		5C5306540C60E715005AC1A5 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
+		5C5306550C60E715005AC1A5 /* cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cool.png; path = Resources/cool.png; sourceTree = "<group>"; };
+		5C5306560C60E715005AC1A5 /* tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tongue.png; path = Resources/tongue.png; sourceTree = "<group>"; };
+		5C5306570C60E715005AC1A5 /* smile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile3.png; path = Resources/smile3.png; sourceTree = "<group>"; };
+		5C5306590C60E715005AC1A5 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = Resources/happy.png; sourceTree = "<group>"; };
+		5C53065A0C60E715005AC1A5 /* sick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sick.png; path = Resources/sick.png; sourceTree = "<group>"; };
+		5C53065B0C60E715005AC1A5 /* whistling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whistling.png; path = Resources/whistling.png; sourceTree = "<group>"; };
+		5C53065C0C60E715005AC1A5 /* wink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wink.png; path = Resources/wink.png; sourceTree = "<group>"; };
+		5C53065D0C60E715005AC1A5 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = Resources/sad.png; sourceTree = "<group>"; };
+		5C5A7A240F136C9100F0097D /* sendsearchfriendpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendsearchfriendpacket.h; sourceTree = "<group>"; };
+		5C5A7A590F13831600F0097D /* recvfriendsearchpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recvfriendsearchpacket.h; sourceTree = "<group>"; };
+		5C61E9270F23A88200C093A7 /* MyXfireOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireOverlay.h; sourceTree = "<group>"; };
+		5C61E9280F23A88200C093A7 /* MyXfireOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXfireOverlay.m; sourceTree = "<group>"; };
+		5C62483F0F11650400EB382E /* TabChatWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabChatWindow.xib; sourceTree = "<group>"; };
+		5C6248540F11681800EB382E /* MyTabbedChatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbedChatWindow.h; sourceTree = "<group>"; };
+		5C6248550F11681800EB382E /* MyTabbedChatWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTabbedChatWindow.mm; sourceTree = "<group>"; };
+		5C6484B50F0969DE00BB2666 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		5C7A55260C78711D00FC0421 /* Xfire Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Xfire Icons"; sourceTree = "<group>"; };
+		5C8387410AFBB030006C9DBF /* MacGames */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = MacGames; path = Resources/MacGames; sourceTree = "<group>"; };
+		5C8387430AFBB04F006C9DBF /* games.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = games.txt; path = Resources/games.txt; sourceTree = "<group>"; };
+		5C85D8370F13F90A005070BE /* sendserverlistquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendserverlistquery.h; sourceTree = "<group>"; };
+		5C85D8860F140012005070BE /* recvserverlistquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recvserverlistquery.h; sourceTree = "<group>"; };
+		5C8808EA0F1E7C8C0063716C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		5C891A7E0B3C404E00C307DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		5CAFF19C0F1CE48400111F18 /* MyXfireVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireVoice.h; sourceTree = "<group>"; };
+		5CAFF19D0F1CE48400111F18 /* MyXfireVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXfireVoice.m; sourceTree = "<group>"; };
+		5CC288900D2C25D9004F1351 /* qstat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = qstat; sourceTree = "<group>"; };
+		5CCD04390C5F303A003F0F67 /* libxfirelib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxfirelib.a; sourceTree = "<group>"; };
+		5CCD043B0C5F304C003F0F67 /* sendtypingpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendtypingpacket.h; sourceTree = "<group>"; };
+		5CD3DB430E9A6B3300570597 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ChatWindow.nib; sourceTree = "<group>"; };
+		5CD3DB460E9A6B3D00570597 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		5CD3DB9A0E9A6D1900570597 /* MyXfireNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireNetwork.h; sourceTree = "<group>"; };
+		5CD3DB9B0E9A6D1900570597 /* MyXfireGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXfireGames.m; sourceTree = "<group>"; };
+		5CD3DB9C0E9A6D1900570597 /* MyQstatWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQstatWrapper.h; sourceTree = "<group>"; };
+		5CD3DB9D0E9A6D1900570597 /* MyQstatWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQstatWrapper.m; sourceTree = "<group>"; };
+		5CD3DB9E0E9A6D1900570597 /* MyXfireWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyXfireWrapper.mm; sourceTree = "<group>"; };
+		5CD3DB9F0E9A6D1900570597 /* MyXfireWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireWrapper.h; sourceTree = "<group>"; };
+		5CD3DBA00E9A6D1900570597 /* MyXfireUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXfireUpdater.m; sourceTree = "<group>"; };
+		5CD3DBA10E9A6D1900570597 /* MyXfireUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireUpdater.h; sourceTree = "<group>"; };
+		5CD3DBA20E9A6D1900570597 /* MyXfireNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXfireNetwork.m; sourceTree = "<group>"; };
+		5CD3DBA30E9A6D1900570597 /* MyGrowl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGrowl.h; sourceTree = "<group>"; };
+		5CD3DBA40E9A6D1900570597 /* MyXfireController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireController.h; sourceTree = "<group>"; };
+		5CD3DBA50E9A6D1900570597 /* AGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKeychain.m; sourceTree = "<group>"; };
+		5CD3DBA60E9A6D1900570597 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		5CD3DBA70E9A6D1900570597 /* MyGrowl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGrowl.m; sourceTree = "<group>"; };
+		5CD3DBA80E9A6D1900570597 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		5CD3DBA90E9A6D1900570597 /* MyChatWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyChatWindow.mm; sourceTree = "<group>"; };
+		5CD3DBAA0E9A6D1900570597 /* MySmiley.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySmiley.m; sourceTree = "<group>"; };
+		5CD3DBAB0E9A6D1900570597 /* MyXfireGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXfireGames.h; sourceTree = "<group>"; };
+		5CD3DBAC0E9A6D1900570597 /* MyXfireController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyXfireController.mm; sourceTree = "<group>"; };
+		5CD3DBAD0E9A6D1900570597 /* AGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKeychain.h; sourceTree = "<group>"; };
+		5CD3DBAE0E9A6D1900570597 /* MyChatWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChatWindow.h; sourceTree = "<group>"; };
+		5CD3DBAF0E9A6D1900570597 /* MySmiley.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySmiley.h; sourceTree = "<group>"; };
+		5CD4C93B0C19F307003ACE9C /* kreuz */ = {isa = PBXFileReference; lastKnownFileType = file; name = kreuz; path = Resources/kreuz; sourceTree = "<group>"; };
+		5CD4C93C0C19F307003ACE9C /* haken */ = {isa = PBXFileReference; lastKnownFileType = file; name = haken; path = Resources/haken; sourceTree = "<group>"; };
+		5CE0B5140B73CEDC0051527B /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5CE572720EEB4635000323C2 /* iFire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iFire.pdf; sourceTree = "<group>"; };
+		5CF2A2610C5CB23D00EA12B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		5CF820750BB40FC0009B0AE1 /* authpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = authpacket.h; sourceTree = "<group>"; };
+		5CF820760BB40FC0009B0AE1 /* buddylist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylist.h; sourceTree = "<group>"; };
+		5CF820770BB40FC0009B0AE1 /* buddylistgames2packet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistgames2packet.h; sourceTree = "<group>"; };
+		5CF820780BB40FC0009B0AE1 /* buddylistgamespacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistgamespacket.h; sourceTree = "<group>"; };
+		5CF820790BB40FC0009B0AE1 /* buddylistnamespacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistnamespacket.h; sourceTree = "<group>"; };
+		5CF8207A0BB40FC0009B0AE1 /* buddylistonlinepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistonlinepacket.h; sourceTree = "<group>"; };
+		5CF8207B0BB40FC0009B0AE1 /* client.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		5CF8207C0BB40FC0009B0AE1 /* clientinformationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientinformationpacket.h; sourceTree = "<group>"; };
+		5CF8207D0BB40FC0009B0AE1 /* clientloginpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientloginpacket.h; sourceTree = "<group>"; };
+		5CF8207E0BB40FC0009B0AE1 /* clientversionpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientversionpacket.h; sourceTree = "<group>"; };
+		5CF8207F0BB40FC0009B0AE1 /* dummyxfiregameresolver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dummyxfiregameresolver.h; sourceTree = "<group>"; };
+		5CF820800BB40FC0009B0AE1 /* invitebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = invitebuddypacket.h; sourceTree = "<group>"; };
+		5CF820810BB40FC0009B0AE1 /* inviterequestpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = inviterequestpacket.h; sourceTree = "<group>"; };
+		5CF820820BB40FC0009B0AE1 /* loginfailedpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = loginfailedpacket.h; sourceTree = "<group>"; };
+		5CF820830BB40FC0009B0AE1 /* loginsuccesspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = loginsuccesspacket.h; sourceTree = "<group>"; };
+		5CF820840BB40FC0009B0AE1 /* messageackpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = messageackpacket.h; sourceTree = "<group>"; };
+		5CF820850BB40FC0009B0AE1 /* messagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = messagepacket.h; sourceTree = "<group>"; };
+		5CF820860BB40FC0009B0AE1 /* monitoredobj.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = monitoredobj.h; sourceTree = "<group>"; };
+		5CF820870BB40FC0009B0AE1 /* otherloginpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = otherloginpacket.h; sourceTree = "<group>"; };
+		5CF820880BB40FC0009B0AE1 /* packetlistener.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = packetlistener.h; sourceTree = "<group>"; };
+		5CF820890BB40FC0009B0AE1 /* packetreader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = packetreader.h; sourceTree = "<group>"; };
+		5CF8208A0BB40FC0009B0AE1 /* recvdidpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvdidpacket.h; sourceTree = "<group>"; };
+		5CF8208B0BB40FC0009B0AE1 /* recvoldversionpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvoldversionpacket.h; sourceTree = "<group>"; };
+		5CF8208C0BB40FC0009B0AE1 /* recvprefspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvprefspacket.h; sourceTree = "<group>"; };
+		5CF8208D0BB40FC0009B0AE1 /* recvremovebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvremovebuddypacket.h; sourceTree = "<group>"; };
+		5CF8208E0BB40FC0009B0AE1 /* recvstatusmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvstatusmessagepacket.h; sourceTree = "<group>"; };
+		5CF8208F0BB40FC0009B0AE1 /* sendacceptinvitationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendacceptinvitationpacket.h; sourceTree = "<group>"; };
+		5CF820900BB40FC0009B0AE1 /* senddenyinvitationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = senddenyinvitationpacket.h; sourceTree = "<group>"; };
+		5CF820910BB40FC0009B0AE1 /* sendgameserverpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgameserverpacket.h; sourceTree = "<group>"; };
+		5CF820920BB40FC0009B0AE1 /* sendgamestatus2packet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgamestatus2packet.h; sourceTree = "<group>"; };
+		5CF820930BB40FC0009B0AE1 /* sendgamestatuspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgamestatuspacket.h; sourceTree = "<group>"; };
+		5CF820940BB40FC0009B0AE1 /* sendkeepalivepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendkeepalivepacket.h; sourceTree = "<group>"; };
+		5CF820950BB40FC0009B0AE1 /* sendmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendmessagepacket.h; sourceTree = "<group>"; };
+		5CF820960BB40FC0009B0AE1 /* sendnickchangepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendnickchangepacket.h; sourceTree = "<group>"; };
+		5CF820970BB40FC0009B0AE1 /* sendremovebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendremovebuddypacket.h; sourceTree = "<group>"; };
+		5CF820980BB40FC0009B0AE1 /* sendstatusmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendstatusmessagepacket.h; sourceTree = "<group>"; };
+		5CF820990BB40FC0009B0AE1 /* SHA1.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHA1.h; sourceTree = "<group>"; };
+		5CF8209A0BB40FC0009B0AE1 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		5CF8209B0BB40FC0009B0AE1 /* socketexception.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = socketexception.h; sourceTree = "<group>"; };
+		5CF8209C0BB40FC0009B0AE1 /* variablevalue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = variablevalue.h; sourceTree = "<group>"; };
+		5CF8209D0BB40FC0009B0AE1 /* xdebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xdebug.h; sourceTree = "<group>"; };
+		5CF8209E0BB40FC0009B0AE1 /* xfiregame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiregame.h; sourceTree = "<group>"; };
+		5CF8209F0BB40FC0009B0AE1 /* xfiregameresolver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiregameresolver.h; sourceTree = "<group>"; };
+		5CF820A00BB40FC0009B0AE1 /* xfirepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirepacket.h; sourceTree = "<group>"; };
+		5CF820A10BB40FC0009B0AE1 /* xfirepacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirepacketcontent.h; sourceTree = "<group>"; };
+		5CF820A20BB40FC0009B0AE1 /* xfireparse.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfireparse.h; sourceTree = "<group>"; };
+		5CF820A30BB40FC0009B0AE1 /* xfirerecvpacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirerecvpacketcontent.h; sourceTree = "<group>"; };
+		5CF820A40BB40FC0009B0AE1 /* xfiresendpacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiresendpacketcontent.h; sourceTree = "<group>"; };
+		5CF820A50BB40FC0009B0AE1 /* xfireutils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfireutils.h; sourceTree = "<group>"; };
+		5CF9C93F0B57C5D200CEBDA5 /* red */ = {isa = PBXFileReference; lastKnownFileType = file; name = red; path = Resources/red; sourceTree = "<group>"; };
+		5CF9C9400B57C5D200CEBDA5 /* orange */ = {isa = PBXFileReference; lastKnownFileType = file; name = orange; path = Resources/orange; sourceTree = "<group>"; };
+		5CF9C9410B57C5D200CEBDA5 /* green */ = {isa = PBXFileReference; lastKnownFileType = file; name = green; path = Resources/green; sourceTree = "<group>"; };
+		5CFA84530C1AEE12008F5B03 /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Add.tiff; path = Resources/Add.tiff; sourceTree = "<group>"; };
+		5CFA84540C1AEE12008F5B03 /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Remove.tiff; path = Resources/Remove.tiff; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* iFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE591C5C0F1E6D0E003A2EBC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5C891A7F0B3C404E00C307DA /* Security.framework in Frameworks */,
+				5CF2A2620C5CB23D00EA12B2 /* IOKit.framework in Frameworks */,
+				5CCD043A0C5F303A003F0F67 /* libxfirelib.a in Frameworks */,
+				5C206F100C6397BD00D3BB68 /* Growl.framework in Frameworks */,
+				AE591C5D0F1E6D0E003A2EBC /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CAFF19C0F1CE48400111F18 /* MyXfireVoice.h */,
+				5CAFF19D0F1CE48400111F18 /* MyXfireVoice.m */,
+				5CD3DBAD0E9A6D1900570597 /* AGKeychain.h */,
+				5CD3DBA50E9A6D1900570597 /* AGKeychain.m */,
+				5CD3DB9A0E9A6D1900570597 /* MyXfireNetwork.h */,
+				5CD3DBAB0E9A6D1900570597 /* MyXfireGames.h */,
+				5CD3DB9B0E9A6D1900570597 /* MyXfireGames.m */,
+				5CD3DB9C0E9A6D1900570597 /* MyQstatWrapper.h */,
+				5CD3DB9D0E9A6D1900570597 /* MyQstatWrapper.m */,
+				5CD3DB9E0E9A6D1900570597 /* MyXfireWrapper.mm */,
+				5CD3DB9F0E9A6D1900570597 /* MyXfireWrapper.h */,
+				5CD3DBA00E9A6D1900570597 /* MyXfireUpdater.m */,
+				5CD3DBA10E9A6D1900570597 /* MyXfireUpdater.h */,
+				5CD3DBA20E9A6D1900570597 /* MyXfireNetwork.m */,
+				5CD3DBA30E9A6D1900570597 /* MyGrowl.h */,
+				5CD3DBA70E9A6D1900570597 /* MyGrowl.m */,
+				5CD3DBA80E9A6D1900570597 /* MyTableView.m */,
+				5CD3DBA60E9A6D1900570597 /* MyTableView.h */,
+				5CD3DBAE0E9A6D1900570597 /* MyChatWindow.h */,
+				5CD3DBA90E9A6D1900570597 /* MyChatWindow.mm */,
+				5C6248540F11681800EB382E /* MyTabbedChatWindow.h */,
+				5C6248550F11681800EB382E /* MyTabbedChatWindow.mm */,
+				5CD3DBAF0E9A6D1900570597 /* MySmiley.h */,
+				5CD3DBAA0E9A6D1900570597 /* MySmiley.m */,
+				5C61E9270F23A88200C093A7 /* MyXfireOverlay.h */,
+				5C61E9280F23A88200C093A7 /* MyXfireOverlay.m */,
+				5CD3DBA40E9A6D1900570597 /* MyXfireController.h */,
+				5CD3DBAC0E9A6D1900570597 /* MyXfireController.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE591C5C0F1E6D0E003A2EBC /* Sparkle.framework */,
+				5C206F0F0C6397BD00D3BB68 /* Growl.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				5CF2A2610C5CB23D00EA12B2 /* IOKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* iFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iFire */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				5CF820740BB40FC0009B0AE1 /* Headers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = iFire;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iFire_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C8808EA0F1E7C8C0063716C /* dsa_pub.pem */,
+				5C62483F0F11650400EB382E /* TabChatWindow.xib */,
+				5C6484B50F0969DE00BB2666 /* Credits.rtf */,
+				5CE572720EEB4635000323C2 /* iFire.pdf */,
+				5C52D2AA0E9B7CEA00D40AC9 /* qstat.cfg */,
+				5CC288900D2C25D9004F1351 /* qstat */,
+				5C7A55260C78711D00FC0421 /* Xfire Icons */,
+				5C5306510C60E715005AC1A5 /* grin.png */,
+				5C5306520C60E715005AC1A5 /* blink.png */,
+				5C5306540C60E715005AC1A5 /* smile.png */,
+				5C5306550C60E715005AC1A5 /* cool.png */,
+				5C5306560C60E715005AC1A5 /* tongue.png */,
+				5C5306570C60E715005AC1A5 /* smile3.png */,
+				5C5306590C60E715005AC1A5 /* happy.png */,
+				5C53065A0C60E715005AC1A5 /* sick.png */,
+				5C53065B0C60E715005AC1A5 /* whistling.png */,
+				5C53065C0C60E715005AC1A5 /* wink.png */,
+				5C53065D0C60E715005AC1A5 /* sad.png */,
+				5C1DF83F0C608C7300F27556 /* Emoticons */,
+				5CCD04390C5F303A003F0F67 /* libxfirelib.a */,
+				5CFA84530C1AEE12008F5B03 /* Add.tiff */,
+				5CFA84540C1AEE12008F5B03 /* Remove.tiff */,
+				5CD4C93B0C19F307003ACE9C /* kreuz */,
+				5CD4C93C0C19F307003ACE9C /* haken */,
+				5C2D88860B7A48E300601026 /* iFire.icns */,
+				5CF9C93F0B57C5D200CEBDA5 /* red */,
+				5CF9C9400B57C5D200CEBDA5 /* orange */,
+				5CD3DB450E9A6B3D00570597 /* MainMenu.nib */,
+				5CD3DB420E9A6B3300570597 /* ChatWindow.nib */,
+				5CF9C9410B57C5D200CEBDA5 /* green */,
+				5C8387430AFBB04F006C9DBF /* games.txt */,
+				5C8387410AFBB030006C9DBF /* MacGames */,
+				8D1107310486CEB800E47090 /* info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				5C8F7A4E0B73D22A0051D219 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C891A7E0B3C404E00C307DA /* Security.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF820740BB40FC0009B0AE1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5C85D8860F140012005070BE /* recvserverlistquery.h */,
+				5C85D8370F13F90A005070BE /* sendserverlistquery.h */,
+				5C5A7A590F13831600F0097D /* recvfriendsearchpacket.h */,
+				5C5A7A240F136C9100F0097D /* sendsearchfriendpacket.h */,
+				5CCD043B0C5F304C003F0F67 /* sendtypingpacket.h */,
+				5CF820750BB40FC0009B0AE1 /* authpacket.h */,
+				5CF820760BB40FC0009B0AE1 /* buddylist.h */,
+				5CF820770BB40FC0009B0AE1 /* buddylistgames2packet.h */,
+				5CF820780BB40FC0009B0AE1 /* buddylistgamespacket.h */,
+				5CF820790BB40FC0009B0AE1 /* buddylistnamespacket.h */,
+				5CF8207A0BB40FC0009B0AE1 /* buddylistonlinepacket.h */,
+				5CF8207B0BB40FC0009B0AE1 /* client.h */,
+				5CF8207C0BB40FC0009B0AE1 /* clientinformationpacket.h */,
+				5CF8207D0BB40FC0009B0AE1 /* clientloginpacket.h */,
+				5CF8207E0BB40FC0009B0AE1 /* clientversionpacket.h */,
+				5CF8207F0BB40FC0009B0AE1 /* dummyxfiregameresolver.h */,
+				5CF820800BB40FC0009B0AE1 /* invitebuddypacket.h */,
+				5CF820810BB40FC0009B0AE1 /* inviterequestpacket.h */,
+				5CF820820BB40FC0009B0AE1 /* loginfailedpacket.h */,
+				5CF820830BB40FC0009B0AE1 /* loginsuccesspacket.h */,
+				5CF820840BB40FC0009B0AE1 /* messageackpacket.h */,
+				5CF820850BB40FC0009B0AE1 /* messagepacket.h */,
+				5CF820860BB40FC0009B0AE1 /* monitoredobj.h */,
+				5CF820870BB40FC0009B0AE1 /* otherloginpacket.h */,
+				5CF820880BB40FC0009B0AE1 /* packetlistener.h */,
+				5CF820890BB40FC0009B0AE1 /* packetreader.h */,
+				5CF8208A0BB40FC0009B0AE1 /* recvdidpacket.h */,
+				5CF8208B0BB40FC0009B0AE1 /* recvoldversionpacket.h */,
+				5CF8208C0BB40FC0009B0AE1 /* recvprefspacket.h */,
+				5CF8208D0BB40FC0009B0AE1 /* recvremovebuddypacket.h */,
+				5CF8208E0BB40FC0009B0AE1 /* recvstatusmessagepacket.h */,
+				5CF8208F0BB40FC0009B0AE1 /* sendacceptinvitationpacket.h */,
+				5CF820900BB40FC0009B0AE1 /* senddenyinvitationpacket.h */,
+				5CF820910BB40FC0009B0AE1 /* sendgameserverpacket.h */,
+				5CF820920BB40FC0009B0AE1 /* sendgamestatus2packet.h */,
+				5CF820930BB40FC0009B0AE1 /* sendgamestatuspacket.h */,
+				5CF820940BB40FC0009B0AE1 /* sendkeepalivepacket.h */,
+				5CF820950BB40FC0009B0AE1 /* sendmessagepacket.h */,
+				5CF820960BB40FC0009B0AE1 /* sendnickchangepacket.h */,
+				5CF820970BB40FC0009B0AE1 /* sendremovebuddypacket.h */,
+				5CF820980BB40FC0009B0AE1 /* sendstatusmessagepacket.h */,
+				5CF820990BB40FC0009B0AE1 /* SHA1.h */,
+				5CF8209A0BB40FC0009B0AE1 /* socket.h */,
+				5CF8209B0BB40FC0009B0AE1 /* socketexception.h */,
+				5CF8209C0BB40FC0009B0AE1 /* variablevalue.h */,
+				5CF8209D0BB40FC0009B0AE1 /* xdebug.h */,
+				5CF8209E0BB40FC0009B0AE1 /* xfiregame.h */,
+				5CF8209F0BB40FC0009B0AE1 /* xfiregameresolver.h */,
+				5CF820A00BB40FC0009B0AE1 /* xfirepacket.h */,
+				5CF820A10BB40FC0009B0AE1 /* xfirepacketcontent.h */,
+				5CF820A20BB40FC0009B0AE1 /* xfireparse.h */,
+				5CF820A30BB40FC0009B0AE1 /* xfirerecvpacketcontent.h */,
+				5CF820A40BB40FC0009B0AE1 /* xfiresendpacketcontent.h */,
+				5CF820A50BB40FC0009B0AE1 /* xfireutils.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* iFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iFire" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5C206F190C6397ED00D3BB68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFire;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iFire;
+			productReference = 8D1107320486CEB800E47090 /* iFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iFire" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iFire */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* iFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				5C8387420AFBB030006C9DBF /* MacGames in Resources */,
+				5C8387440AFBB04F006C9DBF /* games.txt in Resources */,
+				5CF9C9420B57C5D200CEBDA5 /* red in Resources */,
+				5CF9C9430B57C5D200CEBDA5 /* orange in Resources */,
+				5CF9C9440B57C5D200CEBDA5 /* green in Resources */,
+				5C8F7A4F0B73D22A0051D219 /* Localizable.strings in Resources */,
+				5C2D88870B7A48E300601026 /* iFire.icns in Resources */,
+				5CD4C93D0C19F307003ACE9C /* kreuz in Resources */,
+				5CD4C93E0C19F307003ACE9C /* haken in Resources */,
+				5CFA84550C1AEE12008F5B03 /* Add.tiff in Resources */,
+				5CFA84560C1AEE12008F5B03 /* Remove.tiff in Resources */,
+				5C1DF8400C608C7300F27556 /* Emoticons in Resources */,
+				5C53065E0C60E715005AC1A5 /* grin.png in Resources */,
+				5C53065F0C60E715005AC1A5 /* blink.png in Resources */,
+				5C5306610C60E715005AC1A5 /* smile.png in Resources */,
+				5C5306620C60E715005AC1A5 /* cool.png in Resources */,
+				5C5306630C60E715005AC1A5 /* tongue.png in Resources */,
+				5C5306640C60E715005AC1A5 /* smile3.png in Resources */,
+				5C5306660C60E715005AC1A5 /* happy.png in Resources */,
+				5C5306670C60E715005AC1A5 /* sick.png in Resources */,
+				5C5306680C60E715005AC1A5 /* whistling.png in Resources */,
+				5C5306690C60E715005AC1A5 /* wink.png in Resources */,
+				5C53066A0C60E715005AC1A5 /* sad.png in Resources */,
+				5C7A58C20C78711E00FC0421 /* Xfire Icons in Resources */,
+				5CC288910D2C25D9004F1351 /* qstat in Resources */,
+				5CD3DB440E9A6B3300570597 /* ChatWindow.nib in Resources */,
+				5CD3DB470E9A6B3D00570597 /* MainMenu.nib in Resources */,
+				5C52D2AB0E9B7CEA00D40AC9 /* qstat.cfg in Resources */,
+				5CE572730EEB4635000323C2 /* iFire.pdf in Resources */,
+				5C6484B60F0969DE00BB2666 /* Credits.rtf in Resources */,
+				5C8808EB0F1E7C8C0063716C /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5CD3DBB00E9A6D1900570597 /* MyXfireGames.m in Sources */,
+				5CD3DBB10E9A6D1900570597 /* MyQstatWrapper.m in Sources */,
+				5CD3DBB20E9A6D1900570597 /* MyXfireWrapper.mm in Sources */,
+				5CD3DBB30E9A6D1900570597 /* MyXfireUpdater.m in Sources */,
+				5CD3DBB40E9A6D1900570597 /* MyXfireNetwork.m in Sources */,
+				5CD3DBB50E9A6D1900570597 /* AGKeychain.m in Sources */,
+				5CD3DBB60E9A6D1900570597 /* MyGrowl.m in Sources */,
+				5CD3DBB70E9A6D1900570597 /* MyTableView.m in Sources */,
+				5CD3DBB80E9A6D1900570597 /* MyChatWindow.mm in Sources */,
+				5CD3DBB90E9A6D1900570597 /* MySmiley.m in Sources */,
+				5CD3DBBA0E9A6D1900570597 /* MyXfireController.mm in Sources */,
+				5C6248560F11681800EB382E /* MyTabbedChatWindow.mm in Sources */,
+				5CAFF19E0F1CE48400111F18 /* MyXfireVoice.m in Sources */,
+				5C61E9290F23A88200C093A7 /* MyXfireOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C8F7A4E0B73D22A0051D219 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE0B5140B73CEDC0051527B /* English */,
+				5C16AFD20F12184A001A0797 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5CD3DB420E9A6B3300570597 /* ChatWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3DB430E9A6B3300570597 /* English */,
+				5C16AFD10F121843001A0797 /* German */,
+			);
+			name = ChatWindow.nib;
+			sourceTree = "<group>";
+		};
+		5CD3DB450E9A6B3D00570597 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3DB460E9A6B3D00570597 /* English */,
+				5C16AFD00F121839001A0797 /* German */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Headers\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_6)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)\"";
+				PRODUCT_NAME = iFire;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Headers\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_6)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)\"";
+				PRODUCT_NAME = iFire;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_OBJC_GC = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

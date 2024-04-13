@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {sendMessage = id; smileySelected = id; }; 
+            CLASS = ChatWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chat = NSWindow; 
+                inputField = NSTextField; 
+                smileyMenu = NSPopUpButton; 
+                textField = NSTextView; 
+                typingNotification = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

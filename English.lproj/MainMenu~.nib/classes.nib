@@ -1,0 +1,89 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {
+                addBuddy = id; 
+                addStatus = id; 
+                applyOverride = id; 
+                applyPrefs = id; 
+                changeNickname = id; 
+                checkForUpdates = id; 
+                chooseSound = id; 
+                downloadUpdate = id; 
+                getPassword = id; 
+                joinGame = id; 
+                launchGame = id; 
+                login = id; 
+                newChat = id; 
+                popupClick = id; 
+                registerUser = id; 
+                removeBuddy = id; 
+                removeStatus = id; 
+                resetOverride = id; 
+                sendInvitaion = id; 
+                tableClick = id; 
+                visitProfile = id; 
+            }; 
+            CLASS = MyXfireController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoLoginBox = NSButton; 
+                autoLoginBox2 = NSButton; 
+                bounceBox = NSButton; 
+                buddyList = NSTableView; 
+                contextMenu = NSMenu; 
+                drawerBox = NSButton; 
+                drawerInfo = NSTextField; 
+                enableNetworkBox = NSButton; 
+                gameInfoBox = NSButton; 
+                gamePopUpButton = NSPopUpButton; 
+                infoDrawer = NSDrawer; 
+                installedGameList = NSTableView; 
+                interfaceField = NSTextField; 
+                invitationMessage = NSTextField; 
+                invitationUsername = NSTextField; 
+                invitationWindow = NSWindow; 
+                joinGameButton = NSButton; 
+                joinGameMenu = NSMenuItem; 
+                launchServerIP = NSTextField; 
+                loginWindow = NSWindow; 
+                macGameList = NSTableView; 
+                mainWindow = NSWindow; 
+                myGame = NSTextField; 
+                myGameIcon = NSImageView; 
+                myIP = NSTextField; 
+                myStatusField = NSTextField; 
+                myUserName = NSTextField; 
+                nicknameField = NSTextField; 
+                noIPBox = NSButton; 
+                overrideField = NSTextField; 
+                passwordField = NSSecureTextField; 
+                pcGameList = NSTableView; 
+                prefWin = NSWindow; 
+                progressIndicator = NSProgressIndicator; 
+                releaseNotes = NSTextView; 
+                savePasswordBox = NSButton; 
+                savePasswordBox2 = NSButton; 
+                soundOff = NSPopUpButton; 
+                soundOn = NSPopUpButton; 
+                soundRecieved = NSPopUpButton; 
+                soundSent = NSPopUpButton; 
+                statusPopUpMenu = NSPopUpButton; 
+                statusTable = NSTableView; 
+                updateInfo = NSTextField; 
+                updateWindow = NSWindow; 
+                usernameField = NSTextField; 
+                visitProfile = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

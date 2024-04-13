@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC045055464E500DB518D /* xfirelib */;
+		addToTargets = (
+			D2AAC045055464E500DB518D /* xfirelib */,
+		);
+		codeSenseManager = 5C5ABF640CC36DC600610180 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					787,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					747,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 324412940;
+			PBXWorkspaceStateSaveDate = 324412940;
+		};
+		perUserProjectItems = {
+			5C1B1390131FE278008BD459 /* PBXTextBookmark */ = 5C1B1390131FE278008BD459 /* PBXTextBookmark */;
+			5C1B1391131FE278008BD459 /* PBXTextBookmark */ = 5C1B1391131FE278008BD459 /* PBXTextBookmark */;
+			5C1B145B131FF109008BD459 /* PBXTextBookmark */ = 5C1B145B131FF109008BD459 /* PBXTextBookmark */;
+			5C3EDE851356261F006C258E /* PBXTextBookmark */ = 5C3EDE851356261F006C258E /* PBXTextBookmark */;
+			5C3EDE861356261F006C258E /* PBXTextBookmark */ = 5C3EDE861356261F006C258E /* PBXTextBookmark */;
+			5C3EDE871356261F006C258E /* PBXTextBookmark */ = 5C3EDE871356261F006C258E /* PBXTextBookmark */;
+			5C4A89D1104EFC320060F7E0 /* PBXTextBookmark */ = 5C4A89D1104EFC320060F7E0 /* PBXTextBookmark */;
+			5CB7DD851080CCC400CF90E1 /* PBXTextBookmark */ = 5CB7DD851080CCC400CF90E1 /* PBXTextBookmark */;
+			5CEBB47F131EE00800562BB8 /* PBXTextBookmark */ = 5CEBB47F131EE00800562BB8 /* PBXTextBookmark */;
+			5CEE5B47131ED06100DCF534 /* PBXTextBookmark */ = 5CEE5B47131ED06100DCF534 /* PBXTextBookmark */;
+			5CEE5B79131ED43100DCF534 /* PBXTextBookmark */ = 5CEE5B79131ED43100DCF534 /* PBXTextBookmark */;
+			5CEE5BD4131EDD9500DCF534 /* PBXTextBookmark */ = 5CEE5BD4131EDD9500DCF534 /* PBXTextBookmark */;
+			5CFA8BE0112BE653006A9749 /* PBXTextBookmark */ = 5CFA8BE0112BE653006A9749 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5C5ABF630CC36DC600610180 /* Source Control */;
+		userBuildSettings = {
+			OBJROOT = /Users/Flo/Desktop/Krams/iFire/xfirelib/build;
+			SYMROOT = /Users/Flo/Desktop/Krams/iFire;
+		};
+	};
+	5C1B1390131FE278008BD459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABF9C0CC36E0C00610180 /* buddylistgamespacket.cpp */;
+		name = "buddylistgamespacket.cpp: 37";
+		rLen = 5;
+		rLoc = 1230;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 1047;
+	};
+	5C1B1391131FE278008BD459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFC20CC36E0C00610180 /* variablevalue.h */;
+		name = "variablevalue.h: 51";
+		rLen = 8;
+		rLoc = 1674;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1390;
+	};
+	5C1B145B131FF109008BD459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFB30CC36E0C00610180 /* variablevalue.cpp */;
+		name = "variablevalue.cpp: 105";
+		rLen = 0;
+		rLoc = 2936;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 2244;
+	};
+	5C1B145F131FF109008BD459 /* include_sidebar.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = include_sidebar.html;
+		path = /Users/Flo/iFire/build/Debug/include_sidebar.html;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1524, 352}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+	5C3EDE851356261F006C258E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C1B145F131FF109008BD459 /* include_sidebar.html */;
+		name = "include_sidebar.html: 3";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	5C3EDE861356261F006C258E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFC30CC36E0C00610180 /* client.cpp */;
+		name = "client.cpp: 54";
+		rLen = 7;
+		rLoc = 1789;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 1378;
+	};
+	5C3EDE871356261F006C258E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFC30CC36E0C00610180 /* client.cpp */;
+		name = "client.cpp: 54";
+		rLen = 0;
+		rLoc = 1803;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 1357;
+	};
+	5C4A89D1104EFC320060F7E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFAA0CC36E0C00610180 /* invitebuddypacket.cpp */;
+		name = "invitebuddypacket.cpp: 68";
+		rLen = 0;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 3;
+	};
+	5C5A74270F13670A00F0097D /* sendsearchfriendpacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 529}}";
+			sepNavSelRange = "{373, 16}";
+			sepNavVisRange = "{0, 748}";
+			sepNavWindowFrame = "{{833, 86}, {1411, 942}}";
+		};
+	};
+	5C5A74280F13670A00F0097D /* sendsearchfriendpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 882}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 1411}";
+			sepNavWindowFrame = "{{132, -107}, {1411, 942}}";
+		};
+	};
+	5C5A7A3F0F13815400F0097D /* recvfriendsearchpacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{1048, 0}";
+			sepNavVisRange = "{0, 1063}";
+			sepNavWindowFrame = "{{884, -81}, {1411, 942}}";
+		};
+	};
+	5C5A7A400F13815400F0097D /* recvfriendsearchpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 1008}}";
+			sepNavSelRange = "{815, 0}";
+			sepNavVisRange = "{226, 1697}";
+			sepNavWindowFrame = "{{510, 86}, {1411, 942}}";
+		};
+	};
+	5C5ABF630CC36DC600610180 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	5C5ABF640CC36DC600610180 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5C5ABF670CC36E0C00610180 /* sendmessagepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1235}}";
+			sepNavSelRange = "{1899, 5}";
+			sepNavVisRange = "{1371, 829}";
+		};
+	};
+	5C5ABF690CC36E0C00610180 /* packetreader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1672}";
+			sepNavWindowFrame = "{{61, 39}, {1411, 942}}";
+		};
+	};
+	5C5ABF6A0CC36E0C00610180 /* buddylist.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 2600}}";
+			sepNavSelRange = "{1784, 6}";
+			sepNavVisRange = "{1176, 960}";
+		};
+	};
+	5C5ABF6E0CC36E0C00610180 /* recvremovebuddypacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1918}";
+			sepNavWindowFrame = "{{84, 18}, {1411, 942}}";
+		};
+	};
+	5C5ABF6F0CC36E0C00610180 /* buddylistgames2packet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 843}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1472}";
+			sepNavWindowFrame = "{{61, 10}, {842, 971}}";
+		};
+	};
+	5C5ABF700CC36E0C00610180 /* buddylist.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1105}}";
+			sepNavSelRange = "{2104, 6}";
+			sepNavVisRange = "{1376, 874}";
+		};
+	};
+	5C5ABF790CC36E0C00610180 /* recvstatusmessagepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1209}}";
+			sepNavSelRange = "{1549, 0}";
+			sepNavVisRange = "{1040, 961}";
+			sepNavWindowFrame = "{{15, 81}, {1411, 942}}";
+		};
+	};
+	5C5ABF7B0CC36E0C00610180 /* sendacceptinvitationpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 644}}";
+			sepNavSelRange = "{1016, 425}";
+			sepNavVisRange = "{143, 1299}";
+			sepNavWindowFrame = "{{301, 325}, {748, 703}}";
+		};
+	};
+	5C5ABF820CC36E0C00610180 /* sendgamestatus2packet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 843}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1538}";
+			sepNavWindowFrame = "{{15, 52}, {842, 971}}";
+		};
+	};
+	5C5ABF830CC36E0C00610180 /* recvprefspacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1437}";
+			sepNavWindowFrame = "{{15, 81}, {1411, 942}}";
+		};
+	};
+	5C5ABF840CC36E0C00610180 /* loginsuccesspacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 689}}";
+			sepNavSelRange = "{0, 1664}";
+			sepNavVisRange = "{0, 1664}";
+			sepNavWindowFrame = "{{10, 78}, {1006, 800}}";
+		};
+	};
+	5C5ABF850CC36E0C00610180 /* messagepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1274}}";
+			sepNavSelRange = "{1425, 0}";
+			sepNavVisRange = "{1028, 859}";
+		};
+	};
+	5C5ABF860CC36E0C00610180 /* sendkeepalivepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1537}";
+			sepNavWindowFrame = "{{38, 60}, {1411, 942}}";
+		};
+	};
+	5C5ABF870CC36E0C00610180 /* sendgamestatuspacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{1483, 17}";
+			sepNavVisRange = "{0, 1802}";
+			sepNavWindowFrame = "{{776, 24}, {1411, 942}}";
+		};
+	};
+	5C5ABF8B0CC36E0C00610180 /* buddylistgamespacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 879}}";
+			sepNavSelRange = "{1785, 7}";
+			sepNavVisRange = "{0, 1865}";
+			sepNavWindowFrame = "{{939, -132}, {1076, 1007}}";
+		};
+	};
+	5C5ABF8C0CC36E0C00610180 /* buddylistnamespacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1196}}";
+			sepNavSelRange = "{1470, 0}";
+			sepNavVisRange = "{1268, 1126}";
+			sepNavWindowFrame = "{{572, 86}, {1411, 942}}";
+		};
+	};
+	5C5ABF910CC36E0C00610180 /* sendgamestatuspacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {713, 910}}";
+			sepNavSelRange = "{1315, 31}";
+			sepNavVisRange = "{243, 1615}";
+			sepNavWindowFrame = "{{393, 85}, {772, 943}}";
+		};
+	};
+	5C5ABF920CC36E0C00610180 /* buddylistonlinepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 1248}}";
+			sepNavSelRange = "{1142, 0}";
+			sepNavVisRange = "{1349, 1413}";
+			sepNavWindowFrame = "{{121, 20}, {730, 820}}";
+		};
+	};
+	5C5ABF960CC36E0C00610180 /* sendremovebuddypacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 585}}";
+			sepNavSelRange = "{1198, 8}";
+			sepNavVisRange = "{892, 458}";
+		};
+	};
+	5C5ABF970CC36E0C00610180 /* sendnickchangepacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{1165, 20}";
+			sepNavVisRange = "{0, 1602}";
+			sepNavWindowFrame = "{{179, 86}, {1411, 942}}";
+		};
+	};
+	5C5ABF980CC36E0C00610180 /* messageackpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 923}}";
+			sepNavSelRange = "{1365, 5}";
+			sepNavVisRange = "{977, 826}";
+		};
+	};
+	5C5ABF9B0CC36E0C00610180 /* packetreader.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 2058}}";
+			sepNavSelRange = "{3392, 0}";
+			sepNavVisRange = "{2098, 1510}";
+			sepNavWindowFrame = "{{38, 59}, {1411, 942}}";
+		};
+	};
+	5C5ABF9C0CC36E0C00610180 /* buddylistgamespacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 1729}}";
+			sepNavSelRange = "{1230, 5}";
+			sepNavVisRange = "{1047, 620}";
+			sepNavWindowFrame = "{{25, 2}, {1106, 972}}";
+		};
+	};
+	5C5ABF9F0CC36E0C00610180 /* client.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1381, 1001}}";
+			sepNavSelRange = "{1227, 0}";
+			sepNavVisRange = "{0, 1994}";
+			sepNavWindowFrame = "{{0, 4}, {1440, 874}}";
+		};
+	};
+	5C5ABFA30CC36E0C00610180 /* sendgameserverpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 700}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{319, 1234}";
+			sepNavWindowFrame = "{{385, 261}, {748, 703}}";
+		};
+	};
+	5C5ABFA70CC36E0C00610180 /* sendnickchangepacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{1474, 0}";
+			sepNavVisRange = "{0, 1544}";
+			sepNavWindowFrame = "{{741, 46}, {1411, 942}}";
+		};
+	};
+	5C5ABFAA0CC36E0C00610180 /* invitebuddypacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1170}}";
+			sepNavSelRange = "{1475, 8}";
+			sepNavVisRange = "{1234, 1228}";
+		};
+	};
+	5C5ABFAD0CC36E0C00610180 /* clientinformationpacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 784}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{502, 1227}";
+			sepNavWindowFrame = "{{84, 206}, {1011, 754}}";
+		};
+	};
+	5C5ABFB00CC36E0C00610180 /* sendacceptinvitationpacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 728}}";
+			sepNavSelRange = "{975, 559}";
+			sepNavVisRange = "{462, 1074}";
+			sepNavWindowFrame = "{{38, 299}, {748, 703}}";
+		};
+	};
+	5C5ABFB30CC36E0C00610180 /* variablevalue.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 2795}}";
+			sepNavSelRange = "{2936, 0}";
+			sepNavVisRange = "{2244, 636}";
+			sepNavWindowFrame = "{{530, 4}, {1106, 874}}";
+		};
+	};
+	5C5ABFB40CC36E0C00610180 /* loginsuccesspacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 962}}";
+			sepNavSelRange = "{1491, 0}";
+			sepNavVisRange = "{1463, 1082}";
+		};
+	};
+	5C5ABFB60CC36E0C00610180 /* recvremovebuddypacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 520}}";
+			sepNavSelRange = "{1207, 8}";
+			sepNavVisRange = "{0, 1334}";
+		};
+	};
+	5C5ABFB80CC36E0C00610180 /* buddylistnamespacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 819}}";
+			sepNavSelRange = "{1325, 37}";
+			sepNavVisRange = "{1114, 381}";
+			sepNavWindowFrame = "{{61, 39}, {1411, 942}}";
+		};
+	};
+	5C5ABFB90CC36E0C00610180 /* buddylistgames2packet.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 843}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1443}";
+			sepNavWindowFrame = "{{38, 31}, {842, 971}}";
+		};
+	};
+	5C5ABFBC0CC36E0C00610180 /* recvstatusmessagepacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 814}}";
+			sepNavSelRange = "{975, 735}";
+			sepNavVisRange = "{0, 1711}";
+			sepNavWindowFrame = "{{15, 81}, {1411, 942}}";
+		};
+	};
+	5C5ABFBD0CC36E0C00610180 /* sendtypingpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1170}}";
+			sepNavSelRange = "{1848, 5}";
+			sepNavVisRange = "{1352, 828}";
+		};
+	};
+	5C5ABFC20CC36E0C00610180 /* variablevalue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 936}}";
+			sepNavSelRange = "{1674, 8}";
+			sepNavVisRange = "{1390, 864}";
+		};
+	};
+	5C5ABFC30CC36E0C00610180 /* client.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 2821}}";
+			sepNavSelRange = "{1803, 0}";
+			sepNavVisRange = "{1357, 662}";
+			sepNavWindowFrame = "{{0, 4}, {1440, 874}}";
+		};
+	};
+	5C5ABFC40CC36E0C00610180 /* inviterequestpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 650}}";
+			sepNavSelRange = "{1242, 8}";
+			sepNavVisRange = "{640, 1130}";
+		};
+	};
+	5C5ABFC50CC36E0C00610180 /* sendgamestatus2packet.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 843}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1013}";
+			sepNavWindowFrame = "{{23, 57}, {842, 971}}";
+		};
+	};
+	5C5ABFC60CC36E0C00610180 /* sendgameserverpacket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 700}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{319, 1207}";
+			sepNavWindowFrame = "{{130, 215}, {748, 703}}";
+		};
+	};
+	5C85D81C0F13F6E9005070BE /* sendserverlistquery.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 575}}";
+			sepNavSelRange = "{345, 19}";
+			sepNavVisRange = "{0, 683}";
+			sepNavWindowFrame = "{{937, 176}, {748, 703}}";
+		};
+	};
+	5C85D81D0F13F6E9005070BE /* sendserverlistquery.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 575}}";
+			sepNavSelRange = "{431, 0}";
+			sepNavVisRange = "{0, 546}";
+			sepNavWindowFrame = "{{1102, 325}, {748, 703}}";
+		};
+	};
+	5C85D8690F13FE75005070BE /* recvserverlistquery.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 585}}";
+			sepNavSelRange = "{946, 5}";
+			sepNavVisRange = "{537, 431}";
+			sepNavWindowFrame = "{{15, 16}, {1076, 1007}}";
+		};
+	};
+	5C85D86A0F13FE75005070BE /* recvserverlistquery.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1625}}";
+			sepNavSelRange = "{396, 5}";
+			sepNavVisRange = "{337, 768}";
+			sepNavWindowFrame = "{{610, 21}, {1076, 1007}}";
+		};
+	};
+	5CB7DD851080CCC400CF90E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFB80CC36E0C00610180 /* buddylistnamespacket.h */;
+		name = "buddylistnamespacket.h: 41";
+		rLen = 37;
+		rLoc = 1325;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 1114;
+	};
+	5CEBB47F131EE00800562BB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C85D8690F13FE75005070BE /* recvserverlistquery.h */;
+		name = "recvserverlistquery.h: 40";
+		rLen = 5;
+		rLoc = 946;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 537;
+	};
+	5CEE5B47131ED06100DCF534 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABF9F0CC36E0C00610180 /* client.h */;
+		name = "client.h: 34";
+		rLen = 0;
+		rLoc = 1227;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 975;
+	};
+	5CEE5B79131ED43100DCF534 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABF960CC36E0C00610180 /* sendremovebuddypacket.cpp */;
+		name = "sendremovebuddypacket.cpp: 33";
+		rLen = 8;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 892;
+	};
+	5CEE5BD4131EDD9500DCF534 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABF920CC36E0C00610180 /* buddylistonlinepacket.cpp */;
+		name = "buddylistonlinepacket.cpp: 72";
+		rLen = 0;
+		rLoc = 2160;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 1929;
+	};
+	5CFA8BE0112BE653006A9749 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C5ABFB40CC36E0C00610180 /* loginsuccesspacket.cpp */;
+		name = "loginsuccesspacket.cpp: 74";
+		rLen = 0;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 2437;
+	};
+	D2AAC045055464E500DB518D /* xfirelib */ = {
+		activeExec = 0;
+	};
+}

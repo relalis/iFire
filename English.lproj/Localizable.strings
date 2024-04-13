@@ -1,0 +1,57 @@
+"loginFailed" = "The password and username provided are incorrect. Please try again.";
+
+"loginFailedShort" = "Login Failed";
+
+"rmBuddy1" = "Do your really want to remove your buddy ";
+
+"rmBuddy2" = " from your buddylist?";
+
+"rmShort" = "Remove Buddy?";
+
+"noJoin" = "This game doesn´t support directly connecting to a server. Du you want to continue?";
+
+"noJoinShort" = "No One-Click-Joining supported";
+
+"continue" = "Continue";
+
+"cancel" = "Cancel";
+
+"ok" = "Ok";
+
+"download" = "Download";
+
+"notes" = "View Release Notes";
+
+"otherShort" = "Other Login";
+
+"other" = "Somebody has logged in from another location";
+
+"updateShort" = "New Version Available!";
+
+"update" = "iFire Version %@ is now available! (You are using Version %@). Would you like to download the Update now?";
+
+"noUpdateShort" = "No Updates";
+
+"noUpdate" = "There is no newer version of iFire available";
+
+"noInetShort" = "No Internet connection!";
+
+"noInet" = "iFire was unable to connect to the master server!";
+
+"typing" = "%@ is typing a message.";
+
+"msgSent" = "Message sent";
+
+"authRequest" = "Contact requests authorization";
+
+"contactOff" = "Contact has signed off";
+
+"contactOn" = "Contact has signed on";
+
+"nowOnline" = "<This user is now online>";
+
+"nowOffline" = "<This user is now offline>";
+
+"nowPlaying" = "Contact started playing a game";
+
+"playing" = "%@ is now playing %@";

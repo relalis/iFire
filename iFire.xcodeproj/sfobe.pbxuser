@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 4A2FFFB10B615E8C009D0C44 /* Xfire Mac */;
+		activeTarget = 8D1107260486CEB800E47090 /* Xfire Mac */;
+		codeSenseManager = 4A2FFFBD0B615EB3009D0C44 /* Code sense */;
+		executables = (
+			4A2FFFB10B615E8C009D0C44 /* Xfire Mac */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 190930691;
+			PBXWorkspaceStateSaveDate = 190930691;
+		};
+		perUserProjectItems = {
+			4AEEC67B0B615F6800AE9EC3 /* PBXBookmark */ = 4AEEC67B0B615F6800AE9EC3 /* PBXBookmark */;
+			4AEEC6910B61600E00AE9EC3 /* PBXTextBookmark */ = 4AEEC6910B61600E00AE9EC3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4A2FFFBC0B615EB3009D0C44 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4A2FFFB10B615E8C009D0C44 /* Xfire Mac */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Xfire Mac";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	4A2FFFBC0B615EB3009D0C44 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4A2FFFBD0B615EB3009D0C44 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4AEEC67B0B615F6800AE9EC3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5C8AD69E0AF3E82300113431 /* MyXfireGames.m */;
+	};
+	4AEEC6910B61600E00AE9EC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C8AD69E0AF3E82300113431 /* MyXfireGames.m */;
+		name = "MyXfireGames.m: 236";
+		rLen = 0;
+		rLoc = 7271;
+		rType = 0;
+		vrLen = 1625;
+		vrLoc = 5762;
+	};
+	5C425AEF0B5D53CC0021778E /* MyXfireNetwork.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 545}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {813, 545}}";
+			sepNavWindowFrame = "{{19, 199}, {852, 674}}";
+		};
+	};
+	5C8AD69E0AF3E82300113431 /* MyXfireGames.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 3388}}";
+			sepNavSelRange = "{7271, 0}";
+			sepNavVisRect = "{{125, 2843}, {813, 545}}";
+			sepNavWindowFrame = "{{42, 178}, {852, 674}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Xfire Mac */ = {
+		activeExec = 0;
+		executables = (
+			4A2FFFB10B615E8C009D0C44 /* Xfire Mac */,
+		);
+	};
+}

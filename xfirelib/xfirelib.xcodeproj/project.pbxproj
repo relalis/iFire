@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5A74290F13670A00F0097D /* sendsearchfriendpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5A74270F13670A00F0097D /* sendsearchfriendpacket.h */; };
+		5C5A742A0F13670A00F0097D /* sendsearchfriendpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A74280F13670A00F0097D /* sendsearchfriendpacket.cpp */; };
+		5C5A7A410F13815400F0097D /* recvfriendsearchpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5A7A3F0F13815400F0097D /* recvfriendsearchpacket.h */; };
+		5C5A7A420F13815400F0097D /* recvfriendsearchpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A7A400F13815400F0097D /* recvfriendsearchpacket.cpp */; };
+		5C5ABFC70CC36E0C00610180 /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF650CC36E0C00610180 /* socket.cpp */; };
+		5C5ABFC80CC36E0C00610180 /* SHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF660CC36E0C00610180 /* SHA1.h */; };
+		5C5ABFC90CC36E0C00610180 /* sendmessagepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF670CC36E0C00610180 /* sendmessagepacket.cpp */; };
+		5C5ABFCA0CC36E0C00610180 /* sendkeepalivepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF680CC36E0C00610180 /* sendkeepalivepacket.h */; };
+		5C5ABFCB0CC36E0C00610180 /* packetreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF690CC36E0C00610180 /* packetreader.h */; };
+		5C5ABFCC0CC36E0C00610180 /* buddylist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF6A0CC36E0C00610180 /* buddylist.cpp */; };
+		5C5ABFCD0CC36E0C00610180 /* socketexception.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF6B0CC36E0C00610180 /* socketexception.h */; };
+		5C5ABFCE0CC36E0C00610180 /* socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF6C0CC36E0C00610180 /* socket.h */; };
+		5C5ABFCF0CC36E0C00610180 /* xfireparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF6D0CC36E0C00610180 /* xfireparse.h */; };
+		5C5ABFD00CC36E0C00610180 /* recvremovebuddypacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF6E0CC36E0C00610180 /* recvremovebuddypacket.h */; };
+		5C5ABFD10CC36E0C00610180 /* buddylistgames2packet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF6F0CC36E0C00610180 /* buddylistgames2packet.h */; };
+		5C5ABFD20CC36E0C00610180 /* buddylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF700CC36E0C00610180 /* buddylist.h */; };
+		5C5ABFD30CC36E0C00610180 /* xfiresendpacketcontent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF710CC36E0C00610180 /* xfiresendpacketcontent.h */; };
+		5C5ABFD40CC36E0C00610180 /* xfiresendpacketcontent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF720CC36E0C00610180 /* xfiresendpacketcontent.cpp */; };
+		5C5ABFD50CC36E0C00610180 /* xfireparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF730CC36E0C00610180 /* xfireparse.cpp */; };
+		5C5ABFD60CC36E0C00610180 /* xfirepacketcontent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF740CC36E0C00610180 /* xfirepacketcontent.h */; };
+		5C5ABFD70CC36E0C00610180 /* xfirerecvpacketcontent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF750CC36E0C00610180 /* xfirerecvpacketcontent.cpp */; };
+		5C5ABFD80CC36E0C00610180 /* xfirepacketcontent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF760CC36E0C00610180 /* xfirepacketcontent.cpp */; };
+		5C5ABFD90CC36E0C00610180 /* xfirepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF770CC36E0C00610180 /* xfirepacket.h */; };
+		5C5ABFDA0CC36E0C00610180 /* SHA1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF780CC36E0C00610180 /* SHA1.cpp */; };
+		5C5ABFDB0CC36E0C00610180 /* recvstatusmessagepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF790CC36E0C00610180 /* recvstatusmessagepacket.cpp */; };
+		5C5ABFDC0CC36E0C00610180 /* sendtypingpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF7A0CC36E0C00610180 /* sendtypingpacket.h */; };
+		5C5ABFDD0CC36E0C00610180 /* sendacceptinvitationpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF7B0CC36E0C00610180 /* sendacceptinvitationpacket.cpp */; };
+		5C5ABFDE0CC36E0C00610180 /* sendstatusmessagepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF7C0CC36E0C00610180 /* sendstatusmessagepacket.h */; };
+		5C5ABFDF0CC36E0C00610180 /* clientversionpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF7D0CC36E0C00610180 /* clientversionpacket.cpp */; };
+		5C5ABFE00CC36E0C00610180 /* packetlistener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF7E0CC36E0C00610180 /* packetlistener.h */; };
+		5C5ABFE10CC36E0C00610180 /* recvoldversionpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF7F0CC36E0C00610180 /* recvoldversionpacket.cpp */; };
+		5C5ABFE20CC36E0C00610180 /* recvdidpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF800CC36E0C00610180 /* recvdidpacket.cpp */; };
+		5C5ABFE30CC36E0C00610180 /* dummyxfiregameresolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF810CC36E0C00610180 /* dummyxfiregameresolver.cpp */; };
+		5C5ABFE40CC36E0C00610180 /* sendgamestatus2packet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF820CC36E0C00610180 /* sendgamestatus2packet.h */; };
+		5C5ABFE50CC36E0C00610180 /* recvprefspacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF830CC36E0C00610180 /* recvprefspacket.h */; };
+		5C5ABFE60CC36E0C00610180 /* loginsuccesspacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF840CC36E0C00610180 /* loginsuccesspacket.h */; };
+		5C5ABFE70CC36E0C00610180 /* messagepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF850CC36E0C00610180 /* messagepacket.cpp */; };
+		5C5ABFE80CC36E0C00610180 /* sendkeepalivepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF860CC36E0C00610180 /* sendkeepalivepacket.cpp */; };
+		5C5ABFE90CC36E0C00610180 /* sendgamestatuspacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF870CC36E0C00610180 /* sendgamestatuspacket.h */; };
+		5C5ABFEA0CC36E0C00610180 /* inviterequestpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF880CC36E0C00610180 /* inviterequestpacket.h */; };
+		5C5ABFEB0CC36E0C00610180 /* clientloginpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF890CC36E0C00610180 /* clientloginpacket.cpp */; };
+		5C5ABFEC0CC36E0C00610180 /* clientinformationpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF8A0CC36E0C00610180 /* clientinformationpacket.cpp */; };
+		5C5ABFED0CC36E0C00610180 /* buddylistgamespacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF8B0CC36E0C00610180 /* buddylistgamespacket.h */; };
+		5C5ABFEE0CC36E0C00610180 /* buddylistnamespacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF8C0CC36E0C00610180 /* buddylistnamespacket.cpp */; };
+		5C5ABFEF0CC36E0C00610180 /* xfiregame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF8D0CC36E0C00610180 /* xfiregame.cpp */; };
+		5C5ABFF00CC36E0C00610180 /* xfirerecvpacketcontent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF8E0CC36E0C00610180 /* xfirerecvpacketcontent.h */; };
+		5C5ABFF10CC36E0C00610180 /* sendstatusmessagepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF8F0CC36E0C00610180 /* sendstatusmessagepacket.cpp */; };
+		5C5ABFF20CC36E0C00610180 /* xfirepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF900CC36E0C00610180 /* xfirepacket.cpp */; };
+		5C5ABFF30CC36E0C00610180 /* sendgamestatuspacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF910CC36E0C00610180 /* sendgamestatuspacket.cpp */; };
+		5C5ABFF40CC36E0C00610180 /* buddylistonlinepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF920CC36E0C00610180 /* buddylistonlinepacket.cpp */; };
+		5C5ABFF50CC36E0C00610180 /* xfiregameresolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF930CC36E0C00610180 /* xfiregameresolver.cpp */; };
+		5C5ABFF60CC36E0C00610180 /* xfiregame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF940CC36E0C00610180 /* xfiregame.h */; };
+		5C5ABFF70CC36E0C00610180 /* senddenyinvitationpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF950CC36E0C00610180 /* senddenyinvitationpacket.h */; };
+		5C5ABFF80CC36E0C00610180 /* sendremovebuddypacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF960CC36E0C00610180 /* sendremovebuddypacket.cpp */; };
+		5C5ABFF90CC36E0C00610180 /* sendnickchangepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF970CC36E0C00610180 /* sendnickchangepacket.h */; };
+		5C5ABFFA0CC36E0C00610180 /* messageackpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF980CC36E0C00610180 /* messageackpacket.cpp */; };
+		5C5ABFFB0CC36E0C00610180 /* recvoldversionpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF990CC36E0C00610180 /* recvoldversionpacket.h */; };
+		5C5ABFFC0CC36E0C00610180 /* xdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF9A0CC36E0C00610180 /* xdebug.h */; };
+		5C5ABFFD0CC36E0C00610180 /* packetreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF9B0CC36E0C00610180 /* packetreader.cpp */; };
+		5C5ABFFE0CC36E0C00610180 /* buddylistgamespacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABF9C0CC36E0C00610180 /* buddylistgamespacket.cpp */; };
+		5C5ABFFF0CC36E0C00610180 /* xfiregameresolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF9D0CC36E0C00610180 /* xfiregameresolver.h */; };
+		5C5AC0000CC36E0C00610180 /* invitebuddypacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF9E0CC36E0C00610180 /* invitebuddypacket.h */; };
+		5C5AC0010CC36E0C00610180 /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABF9F0CC36E0C00610180 /* client.h */; };
+		5C5AC0020CC36E0C00610180 /* authpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA00CC36E0C00610180 /* authpacket.h */; };
+		5C5AC0030CC36E0C00610180 /* sendremovebuddypacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA10CC36E0C00610180 /* sendremovebuddypacket.h */; };
+		5C5AC0040CC36E0C00610180 /* clientloginpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA20CC36E0C00610180 /* clientloginpacket.h */; };
+		5C5AC0050CC36E0C00610180 /* sendgameserverpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFA30CC36E0C00610180 /* sendgameserverpacket.cpp */; };
+		5C5AC0060CC36E0C00610180 /* buddylistonlinepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA40CC36E0C00610180 /* buddylistonlinepacket.h */; };
+		5C5AC0070CC36E0C00610180 /* recvdidpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA50CC36E0C00610180 /* recvdidpacket.h */; };
+		5C5AC0080CC36E0C00610180 /* xfireutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA60CC36E0C00610180 /* xfireutils.h */; };
+		5C5AC0090CC36E0C00610180 /* sendnickchangepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFA70CC36E0C00610180 /* sendnickchangepacket.cpp */; };
+		5C5AC00A0CC36E0C00610180 /* clientversionpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA80CC36E0C00610180 /* clientversionpacket.h */; };
+		5C5AC00B0CC36E0C00610180 /* sendmessagepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFA90CC36E0C00610180 /* sendmessagepacket.h */; };
+		5C5AC00C0CC36E0C00610180 /* invitebuddypacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFAA0CC36E0C00610180 /* invitebuddypacket.cpp */; };
+		5C5AC00D0CC36E0C00610180 /* authpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFAB0CC36E0C00610180 /* authpacket.cpp */; };
+		5C5AC00E0CC36E0C00610180 /* loginfailedpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFAC0CC36E0C00610180 /* loginfailedpacket.cpp */; };
+		5C5AC00F0CC36E0C00610180 /* clientinformationpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFAD0CC36E0C00610180 /* clientinformationpacket.h */; };
+		5C5AC0100CC36E0C00610180 /* xfireutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFAE0CC36E0C00610180 /* xfireutils.cpp */; };
+		5C5AC0110CC36E0C00610180 /* senddenyinvitationpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFAF0CC36E0C00610180 /* senddenyinvitationpacket.cpp */; };
+		5C5AC0120CC36E0C00610180 /* sendacceptinvitationpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFB00CC36E0C00610180 /* sendacceptinvitationpacket.h */; };
+		5C5AC0130CC36E0C00610180 /* loginfailedpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFB10CC36E0C00610180 /* loginfailedpacket.h */; };
+		5C5AC0140CC36E0C00610180 /* otherloginpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFB20CC36E0C00610180 /* otherloginpacket.h */; };
+		5C5AC0150CC36E0C00610180 /* variablevalue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB30CC36E0C00610180 /* variablevalue.cpp */; };
+		5C5AC0160CC36E0C00610180 /* loginsuccesspacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB40CC36E0C00610180 /* loginsuccesspacket.cpp */; };
+		5C5AC0170CC36E0C00610180 /* otherloginpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB50CC36E0C00610180 /* otherloginpacket.cpp */; };
+		5C5AC0180CC36E0C00610180 /* recvremovebuddypacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB60CC36E0C00610180 /* recvremovebuddypacket.cpp */; };
+		5C5AC0190CC36E0C00610180 /* recvprefspacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB70CC36E0C00610180 /* recvprefspacket.cpp */; };
+		5C5AC01A0CC36E0C00610180 /* buddylistnamespacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFB80CC36E0C00610180 /* buddylistnamespacket.h */; };
+		5C5AC01B0CC36E0C00610180 /* buddylistgames2packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFB90CC36E0C00610180 /* buddylistgames2packet.cpp */; };
+		5C5AC01C0CC36E0C00610180 /* messagepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFBA0CC36E0C00610180 /* messagepacket.h */; };
+		5C5AC01D0CC36E0C00610180 /* monitoredobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFBB0CC36E0C00610180 /* monitoredobj.cpp */; };
+		5C5AC01E0CC36E0C00610180 /* recvstatusmessagepacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFBC0CC36E0C00610180 /* recvstatusmessagepacket.h */; };
+		5C5AC01F0CC36E0C00610180 /* sendtypingpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFBD0CC36E0C00610180 /* sendtypingpacket.cpp */; };
+		5C5AC0200CC36E0C00610180 /* dummyxfiregameresolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFBE0CC36E0C00610180 /* dummyxfiregameresolver.h */; };
+		5C5AC0210CC36E0C00610180 /* monitoredobj.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFBF0CC36E0C00610180 /* monitoredobj.h */; };
+		5C5AC0220CC36E0C00610180 /* messageackpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFC00CC36E0C00610180 /* messageackpacket.h */; };
+		5C5AC0230CC36E0C00610180 /* xdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFC10CC36E0C00610180 /* xdebug.cpp */; };
+		5C5AC0240CC36E0C00610180 /* variablevalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFC20CC36E0C00610180 /* variablevalue.h */; };
+		5C5AC0250CC36E0C00610180 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFC30CC36E0C00610180 /* client.cpp */; };
+		5C5AC0260CC36E0C00610180 /* inviterequestpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFC40CC36E0C00610180 /* inviterequestpacket.cpp */; };
+		5C5AC0270CC36E0C00610180 /* sendgamestatus2packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ABFC50CC36E0C00610180 /* sendgamestatus2packet.cpp */; };
+		5C5AC0280CC36E0C00610180 /* sendgameserverpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5ABFC60CC36E0C00610180 /* sendgameserverpacket.h */; };
+		5C85D81E0F13F6E9005070BE /* sendserverlistquery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C85D81C0F13F6E9005070BE /* sendserverlistquery.h */; };
+		5C85D81F0F13F6E9005070BE /* sendserverlistquery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C85D81D0F13F6E9005070BE /* sendserverlistquery.cpp */; };
+		5C85D86B0F13FE75005070BE /* recvserverlistquery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C85D8690F13FE75005070BE /* recvserverlistquery.h */; };
+		5C85D86C0F13FE75005070BE /* recvserverlistquery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C85D86A0F13FE75005070BE /* recvserverlistquery.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C5A74270F13670A00F0097D /* sendsearchfriendpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendsearchfriendpacket.h; sourceTree = "<group>"; };
+		5C5A74280F13670A00F0097D /* sendsearchfriendpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sendsearchfriendpacket.cpp; sourceTree = "<group>"; };
+		5C5A7A3F0F13815400F0097D /* recvfriendsearchpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recvfriendsearchpacket.h; sourceTree = "<group>"; };
+		5C5A7A400F13815400F0097D /* recvfriendsearchpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recvfriendsearchpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF650CC36E0C00610180 /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		5C5ABF660CC36E0C00610180 /* SHA1.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHA1.h; sourceTree = "<group>"; };
+		5C5ABF670CC36E0C00610180 /* sendmessagepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendmessagepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF680CC36E0C00610180 /* sendkeepalivepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendkeepalivepacket.h; sourceTree = "<group>"; };
+		5C5ABF690CC36E0C00610180 /* packetreader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = packetreader.h; sourceTree = "<group>"; };
+		5C5ABF6A0CC36E0C00610180 /* buddylist.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buddylist.cpp; sourceTree = "<group>"; };
+		5C5ABF6B0CC36E0C00610180 /* socketexception.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = socketexception.h; sourceTree = "<group>"; };
+		5C5ABF6C0CC36E0C00610180 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		5C5ABF6D0CC36E0C00610180 /* xfireparse.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfireparse.h; sourceTree = "<group>"; };
+		5C5ABF6E0CC36E0C00610180 /* recvremovebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvremovebuddypacket.h; sourceTree = "<group>"; };
+		5C5ABF6F0CC36E0C00610180 /* buddylistgames2packet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistgames2packet.h; sourceTree = "<group>"; };
+		5C5ABF700CC36E0C00610180 /* buddylist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylist.h; sourceTree = "<group>"; };
+		5C5ABF710CC36E0C00610180 /* xfiresendpacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiresendpacketcontent.h; sourceTree = "<group>"; };
+		5C5ABF720CC36E0C00610180 /* xfiresendpacketcontent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfiresendpacketcontent.cpp; sourceTree = "<group>"; };
+		5C5ABF730CC36E0C00610180 /* xfireparse.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfireparse.cpp; sourceTree = "<group>"; };
+		5C5ABF740CC36E0C00610180 /* xfirepacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirepacketcontent.h; sourceTree = "<group>"; };
+		5C5ABF750CC36E0C00610180 /* xfirerecvpacketcontent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfirerecvpacketcontent.cpp; sourceTree = "<group>"; };
+		5C5ABF760CC36E0C00610180 /* xfirepacketcontent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfirepacketcontent.cpp; sourceTree = "<group>"; };
+		5C5ABF770CC36E0C00610180 /* xfirepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirepacket.h; sourceTree = "<group>"; };
+		5C5ABF780CC36E0C00610180 /* SHA1.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SHA1.cpp; sourceTree = "<group>"; };
+		5C5ABF790CC36E0C00610180 /* recvstatusmessagepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = recvstatusmessagepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF7A0CC36E0C00610180 /* sendtypingpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendtypingpacket.h; sourceTree = "<group>"; };
+		5C5ABF7B0CC36E0C00610180 /* sendacceptinvitationpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendacceptinvitationpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF7C0CC36E0C00610180 /* sendstatusmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendstatusmessagepacket.h; sourceTree = "<group>"; };
+		5C5ABF7D0CC36E0C00610180 /* clientversionpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = clientversionpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF7E0CC36E0C00610180 /* packetlistener.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = packetlistener.h; sourceTree = "<group>"; };
+		5C5ABF7F0CC36E0C00610180 /* recvoldversionpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = recvoldversionpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF800CC36E0C00610180 /* recvdidpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = recvdidpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF810CC36E0C00610180 /* dummyxfiregameresolver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = dummyxfiregameresolver.cpp; sourceTree = "<group>"; };
+		5C5ABF820CC36E0C00610180 /* sendgamestatus2packet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgamestatus2packet.h; sourceTree = "<group>"; };
+		5C5ABF830CC36E0C00610180 /* recvprefspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvprefspacket.h; sourceTree = "<group>"; };
+		5C5ABF840CC36E0C00610180 /* loginsuccesspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = loginsuccesspacket.h; sourceTree = "<group>"; };
+		5C5ABF850CC36E0C00610180 /* messagepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = messagepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF860CC36E0C00610180 /* sendkeepalivepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendkeepalivepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF870CC36E0C00610180 /* sendgamestatuspacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgamestatuspacket.h; sourceTree = "<group>"; };
+		5C5ABF880CC36E0C00610180 /* inviterequestpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = inviterequestpacket.h; sourceTree = "<group>"; };
+		5C5ABF890CC36E0C00610180 /* clientloginpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = clientloginpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF8A0CC36E0C00610180 /* clientinformationpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = clientinformationpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF8B0CC36E0C00610180 /* buddylistgamespacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistgamespacket.h; sourceTree = "<group>"; };
+		5C5ABF8C0CC36E0C00610180 /* buddylistnamespacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buddylistnamespacket.cpp; sourceTree = "<group>"; };
+		5C5ABF8D0CC36E0C00610180 /* xfiregame.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfiregame.cpp; sourceTree = "<group>"; };
+		5C5ABF8E0CC36E0C00610180 /* xfirerecvpacketcontent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfirerecvpacketcontent.h; sourceTree = "<group>"; };
+		5C5ABF8F0CC36E0C00610180 /* sendstatusmessagepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendstatusmessagepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF900CC36E0C00610180 /* xfirepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfirepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF910CC36E0C00610180 /* sendgamestatuspacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendgamestatuspacket.cpp; sourceTree = "<group>"; };
+		5C5ABF920CC36E0C00610180 /* buddylistonlinepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buddylistonlinepacket.cpp; sourceTree = "<group>"; };
+		5C5ABF930CC36E0C00610180 /* xfiregameresolver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfiregameresolver.cpp; sourceTree = "<group>"; };
+		5C5ABF940CC36E0C00610180 /* xfiregame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiregame.h; sourceTree = "<group>"; };
+		5C5ABF950CC36E0C00610180 /* senddenyinvitationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = senddenyinvitationpacket.h; sourceTree = "<group>"; };
+		5C5ABF960CC36E0C00610180 /* sendremovebuddypacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendremovebuddypacket.cpp; sourceTree = "<group>"; };
+		5C5ABF970CC36E0C00610180 /* sendnickchangepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendnickchangepacket.h; sourceTree = "<group>"; };
+		5C5ABF980CC36E0C00610180 /* messageackpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = messageackpacket.cpp; sourceTree = "<group>"; };
+		5C5ABF990CC36E0C00610180 /* recvoldversionpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvoldversionpacket.h; sourceTree = "<group>"; };
+		5C5ABF9A0CC36E0C00610180 /* xdebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xdebug.h; sourceTree = "<group>"; };
+		5C5ABF9B0CC36E0C00610180 /* packetreader.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = packetreader.cpp; sourceTree = "<group>"; };
+		5C5ABF9C0CC36E0C00610180 /* buddylistgamespacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buddylistgamespacket.cpp; sourceTree = "<group>"; };
+		5C5ABF9D0CC36E0C00610180 /* xfiregameresolver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfiregameresolver.h; sourceTree = "<group>"; };
+		5C5ABF9E0CC36E0C00610180 /* invitebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = invitebuddypacket.h; sourceTree = "<group>"; };
+		5C5ABF9F0CC36E0C00610180 /* client.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		5C5ABFA00CC36E0C00610180 /* authpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = authpacket.h; sourceTree = "<group>"; };
+		5C5ABFA10CC36E0C00610180 /* sendremovebuddypacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendremovebuddypacket.h; sourceTree = "<group>"; };
+		5C5ABFA20CC36E0C00610180 /* clientloginpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientloginpacket.h; sourceTree = "<group>"; };
+		5C5ABFA30CC36E0C00610180 /* sendgameserverpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendgameserverpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFA40CC36E0C00610180 /* buddylistonlinepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistonlinepacket.h; sourceTree = "<group>"; };
+		5C5ABFA50CC36E0C00610180 /* recvdidpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvdidpacket.h; sourceTree = "<group>"; };
+		5C5ABFA60CC36E0C00610180 /* xfireutils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = xfireutils.h; sourceTree = "<group>"; };
+		5C5ABFA70CC36E0C00610180 /* sendnickchangepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendnickchangepacket.cpp; sourceTree = "<group>"; };
+		5C5ABFA80CC36E0C00610180 /* clientversionpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientversionpacket.h; sourceTree = "<group>"; };
+		5C5ABFA90CC36E0C00610180 /* sendmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendmessagepacket.h; sourceTree = "<group>"; };
+		5C5ABFAA0CC36E0C00610180 /* invitebuddypacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = invitebuddypacket.cpp; sourceTree = "<group>"; };
+		5C5ABFAB0CC36E0C00610180 /* authpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = authpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFAC0CC36E0C00610180 /* loginfailedpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = loginfailedpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFAD0CC36E0C00610180 /* clientinformationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = clientinformationpacket.h; sourceTree = "<group>"; };
+		5C5ABFAE0CC36E0C00610180 /* xfireutils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xfireutils.cpp; sourceTree = "<group>"; };
+		5C5ABFAF0CC36E0C00610180 /* senddenyinvitationpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = senddenyinvitationpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFB00CC36E0C00610180 /* sendacceptinvitationpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendacceptinvitationpacket.h; sourceTree = "<group>"; };
+		5C5ABFB10CC36E0C00610180 /* loginfailedpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = loginfailedpacket.h; sourceTree = "<group>"; };
+		5C5ABFB20CC36E0C00610180 /* otherloginpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = otherloginpacket.h; sourceTree = "<group>"; };
+		5C5ABFB30CC36E0C00610180 /* variablevalue.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = variablevalue.cpp; sourceTree = "<group>"; };
+		5C5ABFB40CC36E0C00610180 /* loginsuccesspacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = loginsuccesspacket.cpp; sourceTree = "<group>"; };
+		5C5ABFB50CC36E0C00610180 /* otherloginpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = otherloginpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFB60CC36E0C00610180 /* recvremovebuddypacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = recvremovebuddypacket.cpp; sourceTree = "<group>"; };
+		5C5ABFB70CC36E0C00610180 /* recvprefspacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = recvprefspacket.cpp; sourceTree = "<group>"; };
+		5C5ABFB80CC36E0C00610180 /* buddylistnamespacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buddylistnamespacket.h; sourceTree = "<group>"; };
+		5C5ABFB90CC36E0C00610180 /* buddylistgames2packet.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buddylistgames2packet.cpp; sourceTree = "<group>"; };
+		5C5ABFBA0CC36E0C00610180 /* messagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = messagepacket.h; sourceTree = "<group>"; };
+		5C5ABFBB0CC36E0C00610180 /* monitoredobj.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = monitoredobj.cpp; sourceTree = "<group>"; };
+		5C5ABFBC0CC36E0C00610180 /* recvstatusmessagepacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = recvstatusmessagepacket.h; sourceTree = "<group>"; };
+		5C5ABFBD0CC36E0C00610180 /* sendtypingpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendtypingpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFBE0CC36E0C00610180 /* dummyxfiregameresolver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dummyxfiregameresolver.h; sourceTree = "<group>"; };
+		5C5ABFBF0CC36E0C00610180 /* monitoredobj.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = monitoredobj.h; sourceTree = "<group>"; };
+		5C5ABFC00CC36E0C00610180 /* messageackpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = messageackpacket.h; sourceTree = "<group>"; };
+		5C5ABFC10CC36E0C00610180 /* xdebug.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xdebug.cpp; sourceTree = "<group>"; };
+		5C5ABFC20CC36E0C00610180 /* variablevalue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = variablevalue.h; sourceTree = "<group>"; };
+		5C5ABFC30CC36E0C00610180 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		5C5ABFC40CC36E0C00610180 /* inviterequestpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = inviterequestpacket.cpp; sourceTree = "<group>"; };
+		5C5ABFC50CC36E0C00610180 /* sendgamestatus2packet.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sendgamestatus2packet.cpp; sourceTree = "<group>"; };
+		5C5ABFC60CC36E0C00610180 /* sendgameserverpacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sendgameserverpacket.h; sourceTree = "<group>"; };
+		5C85D81C0F13F6E9005070BE /* sendserverlistquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendserverlistquery.h; sourceTree = "<group>"; };
+		5C85D81D0F13F6E9005070BE /* sendserverlistquery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sendserverlistquery.cpp; sourceTree = "<group>"; };
+		5C85D8690F13FE75005070BE /* recvserverlistquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recvserverlistquery.h; sourceTree = "<group>"; };
+		5C85D86A0F13FE75005070BE /* recvserverlistquery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recvserverlistquery.cpp; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libxfirelib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxfirelib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* xfirelib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = xfirelib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5C85D8690F13FE75005070BE /* recvserverlistquery.h */,
+				5C85D86A0F13FE75005070BE /* recvserverlistquery.cpp */,
+				5C85D81C0F13F6E9005070BE /* sendserverlistquery.h */,
+				5C85D81D0F13F6E9005070BE /* sendserverlistquery.cpp */,
+				5C5A7A3F0F13815400F0097D /* recvfriendsearchpacket.h */,
+				5C5A7A400F13815400F0097D /* recvfriendsearchpacket.cpp */,
+				5C5A74270F13670A00F0097D /* sendsearchfriendpacket.h */,
+				5C5A74280F13670A00F0097D /* sendsearchfriendpacket.cpp */,
+				5C5ABF650CC36E0C00610180 /* socket.cpp */,
+				5C5ABF660CC36E0C00610180 /* SHA1.h */,
+				5C5ABF670CC36E0C00610180 /* sendmessagepacket.cpp */,
+				5C5ABF680CC36E0C00610180 /* sendkeepalivepacket.h */,
+				5C5ABF690CC36E0C00610180 /* packetreader.h */,
+				5C5ABF6A0CC36E0C00610180 /* buddylist.cpp */,
+				5C5ABF6B0CC36E0C00610180 /* socketexception.h */,
+				5C5ABF6C0CC36E0C00610180 /* socket.h */,
+				5C5ABF6D0CC36E0C00610180 /* xfireparse.h */,
+				5C5ABF6E0CC36E0C00610180 /* recvremovebuddypacket.h */,
+				5C5ABF6F0CC36E0C00610180 /* buddylistgames2packet.h */,
+				5C5ABF700CC36E0C00610180 /* buddylist.h */,
+				5C5ABF710CC36E0C00610180 /* xfiresendpacketcontent.h */,
+				5C5ABF720CC36E0C00610180 /* xfiresendpacketcontent.cpp */,
+				5C5ABF730CC36E0C00610180 /* xfireparse.cpp */,
+				5C5ABF740CC36E0C00610180 /* xfirepacketcontent.h */,
+				5C5ABF750CC36E0C00610180 /* xfirerecvpacketcontent.cpp */,
+				5C5ABF760CC36E0C00610180 /* xfirepacketcontent.cpp */,
+				5C5ABF770CC36E0C00610180 /* xfirepacket.h */,
+				5C5ABF780CC36E0C00610180 /* SHA1.cpp */,
+				5C5ABF790CC36E0C00610180 /* recvstatusmessagepacket.cpp */,
+				5C5ABF7A0CC36E0C00610180 /* sendtypingpacket.h */,
+				5C5ABF7B0CC36E0C00610180 /* sendacceptinvitationpacket.cpp */,
+				5C5ABF7C0CC36E0C00610180 /* sendstatusmessagepacket.h */,
+				5C5ABF7D0CC36E0C00610180 /* clientversionpacket.cpp */,
+				5C5ABF7E0CC36E0C00610180 /* packetlistener.h */,
+				5C5ABF7F0CC36E0C00610180 /* recvoldversionpacket.cpp */,
+				5C5ABF800CC36E0C00610180 /* recvdidpacket.cpp */,
+				5C5ABF810CC36E0C00610180 /* dummyxfiregameresolver.cpp */,
+				5C5ABF820CC36E0C00610180 /* sendgamestatus2packet.h */,
+				5C5ABF830CC36E0C00610180 /* recvprefspacket.h */,
+				5C5ABF840CC36E0C00610180 /* loginsuccesspacket.h */,
+				5C5ABF850CC36E0C00610180 /* messagepacket.cpp */,
+				5C5ABF860CC36E0C00610180 /* sendkeepalivepacket.cpp */,
+				5C5ABF870CC36E0C00610180 /* sendgamestatuspacket.h */,
+				5C5ABF880CC36E0C00610180 /* inviterequestpacket.h */,
+				5C5ABF890CC36E0C00610180 /* clientloginpacket.cpp */,
+				5C5ABF8A0CC36E0C00610180 /* clientinformationpacket.cpp */,
+				5C5ABF8B0CC36E0C00610180 /* buddylistgamespacket.h */,
+				5C5ABF8C0CC36E0C00610180 /* buddylistnamespacket.cpp */,
+				5C5ABF8D0CC36E0C00610180 /* xfiregame.cpp */,
+				5C5ABF8E0CC36E0C00610180 /* xfirerecvpacketcontent.h */,
+				5C5ABF8F0CC36E0C00610180 /* sendstatusmessagepacket.cpp */,
+				5C5ABF900CC36E0C00610180 /* xfirepacket.cpp */,
+				5C5ABF910CC36E0C00610180 /* sendgamestatuspacket.cpp */,
+				5C5ABF920CC36E0C00610180 /* buddylistonlinepacket.cpp */,
+				5C5ABF930CC36E0C00610180 /* xfiregameresolver.cpp */,
+				5C5ABF940CC36E0C00610180 /* xfiregame.h */,
+				5C5ABF950CC36E0C00610180 /* senddenyinvitationpacket.h */,
+				5C5ABF960CC36E0C00610180 /* sendremovebuddypacket.cpp */,
+				5C5ABF970CC36E0C00610180 /* sendnickchangepacket.h */,
+				5C5ABF980CC36E0C00610180 /* messageackpacket.cpp */,
+				5C5ABF990CC36E0C00610180 /* recvoldversionpacket.h */,
+				5C5ABF9A0CC36E0C00610180 /* xdebug.h */,
+				5C5ABF9B0CC36E0C00610180 /* packetreader.cpp */,
+				5C5ABF9C0CC36E0C00610180 /* buddylistgamespacket.cpp */,
+				5C5ABF9D0CC36E0C00610180 /* xfiregameresolver.h */,
+				5C5ABF9E0CC36E0C00610180 /* invitebuddypacket.h */,
+				5C5ABF9F0CC36E0C00610180 /* client.h */,
+				5C5ABFA00CC36E0C00610180 /* authpacket.h */,
+				5C5ABFA10CC36E0C00610180 /* sendremovebuddypacket.h */,
+				5C5ABFA20CC36E0C00610180 /* clientloginpacket.h */,
+				5C5ABFA30CC36E0C00610180 /* sendgameserverpacket.cpp */,
+				5C5ABFA40CC36E0C00610180 /* buddylistonlinepacket.h */,
+				5C5ABFA50CC36E0C00610180 /* recvdidpacket.h */,
+				5C5ABFA60CC36E0C00610180 /* xfireutils.h */,
+				5C5ABFA70CC36E0C00610180 /* sendnickchangepacket.cpp */,
+				5C5ABFA80CC36E0C00610180 /* clientversionpacket.h */,
+				5C5ABFA90CC36E0C00610180 /* sendmessagepacket.h */,
+				5C5ABFAA0CC36E0C00610180 /* invitebuddypacket.cpp */,
+				5C5ABFAB0CC36E0C00610180 /* authpacket.cpp */,
+				5C5ABFAC0CC36E0C00610180 /* loginfailedpacket.cpp */,
+				5C5ABFAD0CC36E0C00610180 /* clientinformationpacket.h */,
+				5C5ABFAE0CC36E0C00610180 /* xfireutils.cpp */,
+				5C5ABFAF0CC36E0C00610180 /* senddenyinvitationpacket.cpp */,
+				5C5ABFB00CC36E0C00610180 /* sendacceptinvitationpacket.h */,
+				5C5ABFB10CC36E0C00610180 /* loginfailedpacket.h */,
+				5C5ABFB20CC36E0C00610180 /* otherloginpacket.h */,
+				5C5ABFB30CC36E0C00610180 /* variablevalue.cpp */,
+				5C5ABFB40CC36E0C00610180 /* loginsuccesspacket.cpp */,
+				5C5ABFB50CC36E0C00610180 /* otherloginpacket.cpp */,
+				5C5ABFB60CC36E0C00610180 /* recvremovebuddypacket.cpp */,
+				5C5ABFB70CC36E0C00610180 /* recvprefspacket.cpp */,
+				5C5ABFB80CC36E0C00610180 /* buddylistnamespacket.h */,
+				5C5ABFB90CC36E0C00610180 /* buddylistgames2packet.cpp */,
+				5C5ABFBA0CC36E0C00610180 /* messagepacket.h */,
+				5C5ABFBB0CC36E0C00610180 /* monitoredobj.cpp */,
+				5C5ABFBC0CC36E0C00610180 /* recvstatusmessagepacket.h */,
+				5C5ABFBD0CC36E0C00610180 /* sendtypingpacket.cpp */,
+				5C5ABFBE0CC36E0C00610180 /* dummyxfiregameresolver.h */,
+				5C5ABFBF0CC36E0C00610180 /* monitoredobj.h */,
+				5C5ABFC00CC36E0C00610180 /* messageackpacket.h */,
+				5C5ABFC10CC36E0C00610180 /* xdebug.cpp */,
+				5C5ABFC20CC36E0C00610180 /* variablevalue.h */,
+				5C5ABFC30CC36E0C00610180 /* client.cpp */,
+				5C5ABFC40CC36E0C00610180 /* inviterequestpacket.cpp */,
+				5C5ABFC50CC36E0C00610180 /* sendgamestatus2packet.cpp */,
+				5C5ABFC60CC36E0C00610180 /* sendgameserverpacket.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libxfirelib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5ABFC80CC36E0C00610180 /* SHA1.h in Headers */,
+				5C5ABFCA0CC36E0C00610180 /* sendkeepalivepacket.h in Headers */,
+				5C5ABFCB0CC36E0C00610180 /* packetreader.h in Headers */,
+				5C5ABFCD0CC36E0C00610180 /* socketexception.h in Headers */,
+				5C5ABFCE0CC36E0C00610180 /* socket.h in Headers */,
+				5C5ABFCF0CC36E0C00610180 /* xfireparse.h in Headers */,
+				5C5ABFD00CC36E0C00610180 /* recvremovebuddypacket.h in Headers */,
+				5C5ABFD10CC36E0C00610180 /* buddylistgames2packet.h in Headers */,
+				5C5ABFD20CC36E0C00610180 /* buddylist.h in Headers */,
+				5C5ABFD30CC36E0C00610180 /* xfiresendpacketcontent.h in Headers */,
+				5C5ABFD60CC36E0C00610180 /* xfirepacketcontent.h in Headers */,
+				5C5ABFD90CC36E0C00610180 /* xfirepacket.h in Headers */,
+				5C5ABFDC0CC36E0C00610180 /* sendtypingpacket.h in Headers */,
+				5C5ABFDE0CC36E0C00610180 /* sendstatusmessagepacket.h in Headers */,
+				5C5ABFE00CC36E0C00610180 /* packetlistener.h in Headers */,
+				5C5ABFE40CC36E0C00610180 /* sendgamestatus2packet.h in Headers */,
+				5C5ABFE50CC36E0C00610180 /* recvprefspacket.h in Headers */,
+				5C5ABFE60CC36E0C00610180 /* loginsuccesspacket.h in Headers */,
+				5C5ABFE90CC36E0C00610180 /* sendgamestatuspacket.h in Headers */,
+				5C5ABFEA0CC36E0C00610180 /* inviterequestpacket.h in Headers */,
+				5C5ABFED0CC36E0C00610180 /* buddylistgamespacket.h in Headers */,
+				5C5ABFF00CC36E0C00610180 /* xfirerecvpacketcontent.h in Headers */,
+				5C5ABFF60CC36E0C00610180 /* xfiregame.h in Headers */,
+				5C5ABFF70CC36E0C00610180 /* senddenyinvitationpacket.h in Headers */,
+				5C5ABFF90CC36E0C00610180 /* sendnickchangepacket.h in Headers */,
+				5C5ABFFB0CC36E0C00610180 /* recvoldversionpacket.h in Headers */,
+				5C5ABFFC0CC36E0C00610180 /* xdebug.h in Headers */,
+				5C5ABFFF0CC36E0C00610180 /* xfiregameresolver.h in Headers */,
+				5C5AC0000CC36E0C00610180 /* invitebuddypacket.h in Headers */,
+				5C5AC0010CC36E0C00610180 /* client.h in Headers */,
+				5C5AC0020CC36E0C00610180 /* authpacket.h in Headers */,
+				5C5AC0030CC36E0C00610180 /* sendremovebuddypacket.h in Headers */,
+				5C5AC0040CC36E0C00610180 /* clientloginpacket.h in Headers */,
+				5C5AC0060CC36E0C00610180 /* buddylistonlinepacket.h in Headers */,
+				5C5AC0070CC36E0C00610180 /* recvdidpacket.h in Headers */,
+				5C5AC0080CC36E0C00610180 /* xfireutils.h in Headers */,
+				5C5AC00A0CC36E0C00610180 /* clientversionpacket.h in Headers */,
+				5C5AC00B0CC36E0C00610180 /* sendmessagepacket.h in Headers */,
+				5C5AC00F0CC36E0C00610180 /* clientinformationpacket.h in Headers */,
+				5C5AC0120CC36E0C00610180 /* sendacceptinvitationpacket.h in Headers */,
+				5C5AC0130CC36E0C00610180 /* loginfailedpacket.h in Headers */,
+				5C5AC0140CC36E0C00610180 /* otherloginpacket.h in Headers */,
+				5C5AC01A0CC36E0C00610180 /* buddylistnamespacket.h in Headers */,
+				5C5AC01C0CC36E0C00610180 /* messagepacket.h in Headers */,
+				5C5AC01E0CC36E0C00610180 /* recvstatusmessagepacket.h in Headers */,
+				5C5AC0200CC36E0C00610180 /* dummyxfiregameresolver.h in Headers */,
+				5C5AC0210CC36E0C00610180 /* monitoredobj.h in Headers */,
+				5C5AC0220CC36E0C00610180 /* messageackpacket.h in Headers */,
+				5C5AC0240CC36E0C00610180 /* variablevalue.h in Headers */,
+				5C5AC0280CC36E0C00610180 /* sendgameserverpacket.h in Headers */,
+				5C5A74290F13670A00F0097D /* sendsearchfriendpacket.h in Headers */,
+				5C5A7A410F13815400F0097D /* recvfriendsearchpacket.h in Headers */,
+				5C85D81E0F13F6E9005070BE /* sendserverlistquery.h in Headers */,
+				5C85D86B0F13FE75005070BE /* recvserverlistquery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* xfirelib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "xfirelib" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xfirelib;
+			productName = xfirelib;
+			productReference = D2AAC046055464E500DB518D /* libxfirelib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "xfirelib" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* xfirelib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* xfirelib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5ABFC70CC36E0C00610180 /* socket.cpp in Sources */,
+				5C5ABFC90CC36E0C00610180 /* sendmessagepacket.cpp in Sources */,
+				5C5ABFCC0CC36E0C00610180 /* buddylist.cpp in Sources */,
+				5C5ABFD40CC36E0C00610180 /* xfiresendpacketcontent.cpp in Sources */,
+				5C5ABFD50CC36E0C00610180 /* xfireparse.cpp in Sources */,
+				5C5ABFD70CC36E0C00610180 /* xfirerecvpacketcontent.cpp in Sources */,
+				5C5ABFD80CC36E0C00610180 /* xfirepacketcontent.cpp in Sources */,
+				5C5ABFDA0CC36E0C00610180 /* SHA1.cpp in Sources */,
+				5C5ABFDB0CC36E0C00610180 /* recvstatusmessagepacket.cpp in Sources */,
+				5C5ABFDD0CC36E0C00610180 /* sendacceptinvitationpacket.cpp in Sources */,
+				5C5ABFDF0CC36E0C00610180 /* clientversionpacket.cpp in Sources */,
+				5C5ABFE10CC36E0C00610180 /* recvoldversionpacket.cpp in Sources */,
+				5C5ABFE20CC36E0C00610180 /* recvdidpacket.cpp in Sources */,
+				5C5ABFE30CC36E0C00610180 /* dummyxfiregameresolver.cpp in Sources */,
+				5C5ABFE70CC36E0C00610180 /* messagepacket.cpp in Sources */,
+				5C5ABFE80CC36E0C00610180 /* sendkeepalivepacket.cpp in Sources */,
+				5C5ABFEB0CC36E0C00610180 /* clientloginpacket.cpp in Sources */,
+				5C5ABFEC0CC36E0C00610180 /* clientinformationpacket.cpp in Sources */,
+				5C5ABFEE0CC36E0C00610180 /* buddylistnamespacket.cpp in Sources */,
+				5C5ABFEF0CC36E0C00610180 /* xfiregame.cpp in Sources */,
+				5C5ABFF10CC36E0C00610180 /* sendstatusmessagepacket.cpp in Sources */,
+				5C5ABFF20CC36E0C00610180 /* xfirepacket.cpp in Sources */,
+				5C5ABFF30CC36E0C00610180 /* sendgamestatuspacket.cpp in Sources */,
+				5C5ABFF40CC36E0C00610180 /* buddylistonlinepacket.cpp in Sources */,
+				5C5ABFF50CC36E0C00610180 /* xfiregameresolver.cpp in Sources */,
+				5C5ABFF80CC36E0C00610180 /* sendremovebuddypacket.cpp in Sources */,
+				5C5ABFFA0CC36E0C00610180 /* messageackpacket.cpp in Sources */,
+				5C5ABFFD0CC36E0C00610180 /* packetreader.cpp in Sources */,
+				5C5ABFFE0CC36E0C00610180 /* buddylistgamespacket.cpp in Sources */,
+				5C5AC0050CC36E0C00610180 /* sendgameserverpacket.cpp in Sources */,
+				5C5AC0090CC36E0C00610180 /* sendnickchangepacket.cpp in Sources */,
+				5C5AC00C0CC36E0C00610180 /* invitebuddypacket.cpp in Sources */,
+				5C5AC00D0CC36E0C00610180 /* authpacket.cpp in Sources */,
+				5C5AC00E0CC36E0C00610180 /* loginfailedpacket.cpp in Sources */,
+				5C5AC0100CC36E0C00610180 /* xfireutils.cpp in Sources */,
+				5C5AC0110CC36E0C00610180 /* senddenyinvitationpacket.cpp in Sources */,
+				5C5AC0150CC36E0C00610180 /* variablevalue.cpp in Sources */,
+				5C5AC0160CC36E0C00610180 /* loginsuccesspacket.cpp in Sources */,
+				5C5AC0170CC36E0C00610180 /* otherloginpacket.cpp in Sources */,
+				5C5AC0180CC36E0C00610180 /* recvremovebuddypacket.cpp in Sources */,
+				5C5AC0190CC36E0C00610180 /* recvprefspacket.cpp in Sources */,
+				5C5AC01B0CC36E0C00610180 /* buddylistgames2packet.cpp in Sources */,
+				5C5AC01D0CC36E0C00610180 /* monitoredobj.cpp in Sources */,
+				5C5AC01F0CC36E0C00610180 /* sendtypingpacket.cpp in Sources */,
+				5C5AC0230CC36E0C00610180 /* xdebug.cpp in Sources */,
+				5C5AC0250CC36E0C00610180 /* client.cpp in Sources */,
+				5C5AC0260CC36E0C00610180 /* inviterequestpacket.cpp in Sources */,
+				5C5AC0270CC36E0C00610180 /* sendgamestatus2packet.cpp in Sources */,
+				5C5A742A0F13670A00F0097D /* sendsearchfriendpacket.cpp in Sources */,
+				5C5A7A420F13815400F0097D /* recvfriendsearchpacket.cpp in Sources */,
+				5C85D81F0F13F6E9005070BE /* sendserverlistquery.cpp in Sources */,
+				5C85D86C0F13FE75005070BE /* recvserverlistquery.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = xfirelib;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = xfirelib;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "xfirelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "xfirelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

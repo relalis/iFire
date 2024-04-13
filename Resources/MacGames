@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Game</key>
+		<string>Age of Empires III Trial</string>
+		<key>GameID</key>
+		<string>4633</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Quake 2</string>
+		<key>GameID</key>
+		<string>4116</string>
+		<key>GameServer</key>
+		<string>-q2s</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Gangland</string>
+		<key>GameID</key>
+		<string>4673</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Warcraft III</string>
+		<key>GameID</key>
+		<string>4270</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tiger Woods PGA Tour '05</string>
+		<key>GameID</key>
+		<string>4341</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Colin McRae Rally '05</string>
+		<key>GameID</key>
+		<string>4422</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Kung Fu Panda Demo</string>
+		<key>GameID</key>
+		<string>5377</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Kung Fu Panda</string>
+		<key>GameID</key>
+		<string>5443</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Crazy Machines 2</string>
+		<key>GameID</key>
+		<string>5467</string>
+		<key>LaunchArguments</key>
+		<string>-applaunch 18400</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>EVE Online</string>
+		<key>GameID</key>
+		<string>4320</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>DTM Race Driver 3</string>
+		<key>GameID</key>
+		<string>4758</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Darwinia Demo</string>
+		<key>GameID</key>
+		<string>4430</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Sims 2</string>
+		<key>GameID</key>
+		<string>4322</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Sims 3</string>
+		<key>GameID</key>
+		<string>5828</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Civilization IV</string>
+		<key>GameID</key>
+		<string>4685</string>
+		<key>LaunchArguments</key>
+		<string>-applaunch 3900</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>StarCraft Brood War</string>
+		<key>GameID</key>
+		<string>4284</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>The Movies Demo</string>
+		<key>GameID</key>
+		<string>4696</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Black &amp; White 2 Demo</string>
+		<key>GameID</key>
+		<string>4663</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Black &amp; White 2</string>
+		<key>GameID</key>
+		<string>4663</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Army Operations 2.5.0</string>
+		<key>GameID</key>
+		<string>2</string>
+		<key>GameServer</key>
+		<string>-gps</string>
+		<key>LaunchArguments</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Unreal Tournament OS X</string>
+		<key>GameID</key>
+		<string>3</string>
+		<key>GameServer</key>
+		<string>-uns</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Unreal Tournament 2003</string>
+		<key>GameID</key>
+		<string>4</string>
+		<key>LaunchArguments</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Counter-Strike</string>
+		<key>GameID</key>
+		<string>5</string>
+		<key>GameServer</key>
+		<string>-a2s</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Wolfenstein ET</string>
+		<key>GameID</key>
+		<string>4097</string>
+		<key>GameServer</key>
+		<string>-rws</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Dungeon Siege</string>
+		<key>GameID</key>
+		<string>4100</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Starcraft (Carbon)</string>
+		<key>GameID</key>
+		<string>4101</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Diablo II(Carbon) </string>
+		<key>GameID</key>
+		<string>4102</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Battlefield 1942</string>
+		<key>GameID</key>
+		<string>4105</string>
+		<key>GameServer</key>
+		<string>-gps</string>
+		<key>LaunchArguments</key>
+		<string>+joinServer</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Halo</string>
+		<key>GameID</key>
+		<string>4107</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Quake 3</string>
+		<key>GameID</key>
+		<string>4111</string>
+		<key>GameServer</key>
+		<string>-q3s</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Lineage</string>
+		<key>GameID</key>
+		<string>4113</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Medal of Honor</string>
+		<key>GameID</key>
+		<string>4114</string>
+		<key>GameServer</key>
+		<string>-gps</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty SP</string>
+		<key>GameID</key>
+		<string>4119</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty MP</string>
+		<key>GameID</key>
+		<string>4120</string>
+		<key>GameServer</key>
+		<string>-cods</string>
+		<key>LaunchArguments</key>
+		<string>NSServices</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Knights of the Old Republic</string>
+		<key>GameID</key>
+		<string>4121</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Age of Empires II</string>
+		<key>GameID</key>
+		<string>4124</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>SimCity 4</string>
+		<key>GameID</key>
+		<string>4127</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Command &amp; Conquer Generals</string>
+		<key>GameID</key>
+		<string>4129</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Rise of Nations Gold</string>
+		<key>GameID</key>
+		<string>4135</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Age of Mythology</string>
+		<key>GameID</key>
+		<string>4139</string>
+		<key>LaunchArguments</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Raven Shield</string>
+		<key>GameID</key>
+		<string>4141</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Breakthrough</string>
+		<key>GameID</key>
+		<string>4150</string>
+		<key>GameServer</key>
+		<string>-gps</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>SOF II - Multiplayer</string>
+		<key>GameID</key>
+		<string>4151</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Spearhead</string>
+		<key>GameID</key>
+		<string>4152</string>
+		<key>GameServer</key>
+		<string>-gps</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>SOF II - Single Player</string>
+		<key>GameID</key>
+		<string>4153</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Ghost Recon</string>
+		<key>GameID</key>
+		<string>4154</string>
+		<key>GameServer</key>
+		<string>-grs</string>
+		<key>LaunchArguments</key>
+		<string>-client</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Delta Force Black Hawk Down</string>
+		<key>GameID</key>
+		<string>4155</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Jedi Academy</string>
+		<key>GameID</key>
+		<string>4157</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Jedi Academy MP</string>
+		<key>GameID</key>
+		<string>4158</string>
+		<key>GameServer</key>
+		<string>-efs</string>
+		<key>LaunchArguments</key>
+		<string>NSServices</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Zero Hour</string>
+		<key>GameID</key>
+		<string>4156</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Jedi Knight II MP</string>
+		<key>GameID</key>
+		<string>4160</string>
+		<key>LaunchArguments</key>
+		<string>NSServices</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Jedi Knight II</string>
+		<key>GameID</key>
+		<string>4161</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Unreal Tournament 2004 Demo</string>
+		<key>GameID</key>
+		<string>4162</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Wolfenstein SP</string>
+		<key>GameID</key>
+		<string>4173</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Wolfenstein MP</string>
+		<key>GameID</key>
+		<string>4174</string>
+		<key>GameServer</key>
+		<string>-rws</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Second Life</string>
+		<key>GameID</key>
+		<string>4179</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Unreal Tournament 2004</string>
+		<key>GameID</key>
+		<string>4181</string>
+		<key>GameServer</key>
+		<string>-ut2s</string>
+		<key>LaunchArguments</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Nascar 2003</string>
+		<key>GameID</key>
+		<string>4207</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>World of Warcraft</string>
+		<key>GameID</key>
+		<string>4216</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>TrueCrimeMac</string>
+		<key>GameID</key>
+		<string>4242</string>
+		<key>LaunchArguments</key>
+		<string>-connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Shadowbane</string>
+		<key>GameID</key>
+		<string>4244</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tony Hawk's Pro Skater 3</string>
+		<key>GameID</key>
+		<string>4269</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Doom 3</string>
+		<key>GameID</key>
+		<string>4271</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tony Hawk's Pro Skater 4</string>
+		<key>GameID</key>
+		<string>4272</string>
+		<key>LaunchArguments</key>
+		<string>-connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Athena Sword</string>
+		<key>GameID</key>
+		<string>4275</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>XIII</string>
+		<key>GameID</key>
+		<string>4290</string>
+		<key>LaunchArguments</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Max Payne</string>
+		<key>GameID</key>
+		<string>4307</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>CoD United Offensive SP</string>
+		<key>GameID</key>
+		<string>4310</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>CoD United Offensive MP</string>
+		<key>GameID</key>
+		<string>4311</string>
+		<key>GameServer</key>
+		<string>-cods</string>
+		<key>LaunchArguments</key>
+		<string>NSServices</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Star Wars Battlefront</string>
+		<key>GameID</key>
+		<string>4323</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Rome Total War</string>
+		<key>GameID</key>
+		<string>4325</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Counter-Strike Source</string>
+		<key>GameID</key>
+		<string>4331</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>RollerCoaster Tycoon 3</string>
+		<key>GameID</key>
+		<string>4344</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Guild Wars</string>
+		<key>GameID</key>
+		<string>4345</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Worms 3D</string>
+		<key>GameID</key>
+		<string>4367</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>No one lives forever</string>
+		<key>GameID</key>
+		<string>4381</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Galactic Battlegrounds</string>
+		<key>GameID</key>
+		<string>4384</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Homeworld 2</string>
+		<key>GameID</key>
+		<string>4389</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Postal 2</string>
+		<key>GameID</key>
+		<string>4401</string>
+		<key>LaunchArguments</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>4x4 Evolution 2</string>
+		<key>GameID</key>
+		<string>4409</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Black &amp; White</string>
+		<key>GameID</key>
+		<string>4413</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Darwinia</string>
+		<key>GameID</key>
+		<string>4431</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tropico for OS X</string>
+		<key>GameID</key>
+		<string>4437</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Splinter Cell</string>
+		<key>GameID</key>
+		<string>4441</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Close Combat First to Fight</string>
+		<key>GameID</key>
+		<string>4446</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Imperial Glory</string>
+		<key>GameID</key>
+		<string>4577</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Battlefield 2</string>
+		<key>GameID</key>
+		<string>4578</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Legion Arena</string>
+		<key>GameID</key>
+		<string>4628</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Railroad Tycoon 3</string>
+		<key>GameID</key>
+		<string>4643</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty 2 Demo</string>
+		<key>GameID</key>
+		<string>4656</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Age of Empires</string>
+		<key>GameID</key>
+		<string>4565</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>PokerStars</string>
+		<key>GameID</key>
+		<string>4567</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Stronghold</string>
+		<key>GameID</key>
+		<string>4604</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Blitzkrieg</string>
+		<key>GameID</key>
+		<string>4645</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Quake 4</string>
+		<key>GameID</key>
+		<string>4678</string>
+		<key>GameServer</key>
+		<string>-q4s</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Age of Empires III</string>
+		<key>GameID</key>
+		<string>4679</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty 2</string>
+		<key>GameID</key>
+		<string>4683</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty 2 Multiplayer</string>
+		<key>GameID</key>
+		<string>4684</string>
+		<key>GameServer</key>
+		<string>-cods</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>The Return Of The King</string>
+		<key>GameID</key>
+		<string>4686</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>The Movies</string>
+		<key>GameID</key>
+		<string>4696</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Stubbs The Zombie</string>
+		<key>GameID</key>
+		<string>4717</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Empire At War</string>
+		<key>GameID</key>
+		<string>4726</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Heroes of Might and Magic V</string>
+		<key>GameID</key>
+		<string>4815</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Prey</string>
+		<key>GameID</key>
+		<string>4858</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>FlatOut 2</string>
+		<key>GameID</key>
+		<string>4875</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Battlefield 2142</string>
+		<key>GameID</key>
+		<string>4880</string>
+		<key>GameServer</key>
+		<string>-gs4</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>DEFCON</string>
+		<key>GameID</key>
+		<string>4920</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Age of Empires III - The WarChiefs</string>
+		<key>GameID</key>
+		<string>4922</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Football Manager 2007</string>
+		<key>GameID</key>
+		<string>4947</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Neverwinter Nights 2</string>
+		<key>GameID</key>
+		<string>4942</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Need for Speed Carbon</string>
+		<key>GameID</key>
+		<string>4943</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>James Bond 007 Nightfire</string>
+		<key>GameID</key>
+		<string>4982</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Full Tilt Poker</string>
+		<key>GameID</key>
+		<string>4995</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Command and Conquer 3</string>
+		<key>GameID</key>
+		<string>5013</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Sauerbraten</string>
+		<key>GameID</key>
+		<string>5055</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tomb Raider Anniversary</string>
+		<key>GameID</key>
+		<string>5068</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Enemy Territory QUAKE Wars</string>
+		<key>GameID</key>
+		<string>5080</string>
+		<key>GameServer</key>
+		<string>-etqws</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Tiger Woods PGA Tour 08</string>
+		<key>GameID</key>
+		<string>5126</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>ioUrbanTerror</string>
+		<key>GameID</key>
+		<string>5128</string>
+		<key>GameServer</key>
+		<string>-q3s</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty 4</string>
+		<key>GameID</key>
+		<string>5185</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>Call of Duty 4 Multiplayer</string>
+		<key>GameID</key>
+		<string>5186</string>
+		<key>GameServer</key>
+		<string>-cod4s</string>
+		<key>LaunchArguments</key>
+		<string>+connect</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>SPORE(TM) Labor</string>
+		<key>GameID</key>
+		<string>5459</string>
+	</dict>
+	<dict>
+		<key>Game</key>
+		<string>SPORE</string>
+		<key>GameID</key>
+		<string>5540</string>
+	</dict>
+</array>
+</plist>
